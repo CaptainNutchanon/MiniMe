@@ -1,0 +1,1510 @@
+{
+  "participants": [
+    {
+      "name": "Chanathip Naowakul"
+    },
+    {
+      "name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1757080239045,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00b9\u00e0\u00b9\u0088\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1757072007418,
+      "content": "\u00e0\u00b8\u00ad\u00e0\u00b8\u00a3\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00a1\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3714907452304602013"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1756303695346,
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3708466585504187211"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1756302809311,
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1755581325328,
+      "content": "Audio call ended",
+      "call_duration": 25,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1755581297923,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1754449952316,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b9\u0080\u00e0\u00b8\u009b\u00e0\u00b9\u0087\u00e0\u00b8\u0099\u00e0\u00b9\u0084\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1754449223815,
+      "content": "\u00e0\u00b8\u0095\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b9\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u0081\u00e0\u00b8\u0081\u00e0\u00b8\u00b0\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u00a3\u00e0\u00b8\u00b2\u00e0\u00b8\u009e\u00e0\u00b8\u00b9\u00e0\u00b8\u0094\u00e0\u00b8\u0095\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0081\u00e0\u00b8\u00a5\u00e0\u00b9\u0089\u00e0\u00b8\u00a7\u00e0\u00b8\u0084\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00ab\u00e0\u00b8\u00ad\u00e0\u00b8\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1754449195010,
+      "content": "\u00e0\u00b9\u0082\u00e0\u00b8\u0097\u00e0\u00b8\u0094\u00e0\u00b9\u0086\u00e0\u00b8\u0081\u00e0\u00b8\u00b8\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u00a3\u00e0\u00b8\u00b9\u00e0\u00b9\u0089\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b8\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00a2\u00e0\u00b9\u008c\u00e0\u00b8\u0088\u00e0\u00b8\u00b0\u00e0\u00b9\u0080\u00e0\u00b8\u00a3\u00e0\u00b9\u0088\u00e0\u00b8\u0087\u00e0\u00b8\u0082\u00e0\u00b8\u0099\u00e0\u00b8\u00b2\u00e0\u00b8\u0094\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1754446762873,
+      "content": "\u00e0\u00b8\u00ab\u00e0\u00b8\u00a5\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b8\u0081\u00e0\u00b8\u00b9\u00e0\u00b8\u009e\u00e0\u00b8\u00b9\u00e0\u00b8\u0094\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1754446675963,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b8\u00e0\u00b8\u009e\u00e0\u00b8\u00b9\u00e0\u00b8\u0094\u00e0\u00b8\u00ad\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u0095\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1754403947247,
+      "content": "\u00e0\u00b9\u0082\u00e0\u00b8\u00ad\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1754403867197,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b8\u009e\u00e0\u00b8\u00b9\u00e0\u00b8\u0094\u00e0\u00b8\u00ad\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u0099\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1754403859426,
+      "content": "1. \u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b0\u00e0\u00b9\u0082\u00e0\u00b8\u00a2\u00e0\u00b8\u008a\u00e0\u00b8\u0099\u00e0\u00b9\u008c\u00e0\u00b9\u0080\u00e0\u00b8\u008a\u00e0\u00b8\u00b4\u00e0\u00b8\u0087\u00e0\u00b8\u009b\u00e0\u00b8\u008f\u00e0\u00b8\u00b4\u00e0\u00b8\u009a\u00e0\u00b8\u00b1\u00e0\u00b8\u0095\u00e0\u00b8\u00b4 (Practical Benefits)\n\u00e0\u00b8\u0084\u00e0\u00b8\u00b1\u00e0\u00b8\u0094\u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u0084\u00e0\u00b8\u00a7\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b9\u0080\u00e0\u00b8\u00aa\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u00a2\u00e0\u00b8\u0087\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u0087\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\n\u00e0\u00b9\u0081\u00e0\u00b8\u00a1\u00e0\u00b9\u0089\u00e0\u00b8\u0088\u00e0\u00b8\u00b0\u00e0\u00b9\u0083\u00e0\u00b8\u008a\u00e0\u00b9\u0089\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u00a1\u00e0\u00b8\u00b9\u00e0\u00b8\u00a5\u00e0\u00b8\u0082\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u009b\u00e0\u00b8\u00b5 2 \u00e0\u00b9\u0081\u00e0\u00b8\u0095\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00b4\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b8\u00b2\u00e0\u00b8\u00b0\u00e0\u00b8\u00ab\u00e0\u00b9\u008c\u00e0\u00b8\u00a2\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2\u00e0\u00b8\u009b\u00e0\u00b8\u00b1\u00e0\u00b8\u0088\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u00a2\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u0097\u00e0\u00b8\u00b3\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u009b\u00e0\u00b8\u00b5 1 \u00e0\u00b9\u0080\u00e0\u00b8\u00aa\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u00a2\u00e0\u00b8\u0087 \u00e0\u00b8\u0088\u00e0\u00b8\u00b0\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u00a1\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7\u00e0\u00b8\u00b4\u00e0\u00b8\u0097\u00e0\u00b8\u00a2\u00e0\u00b8\u00b2\u00e0\u00b8\u00a5\u00e0\u00b8\u00b1\u00e0\u00b8\u00a2\u00e0\u00b8\u0095\u00e0\u00b8\u00a3\u00e0\u00b8\u00a7\u00e0\u00b8\u0088\u00e0\u00b8\u009e\u00e0\u00b8\u009a\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b8\u00b8\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b8\u0099\u00e0\u00b8\u00b1\u00e0\u00b8\u0081\u00e0\u00b8\u00a8\u00e0\u00b8\u00b6\u00e0\u00b8\u0081\u00e0\u00b8\u00a9\u00e0\u00b8\u00b2\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u0095\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b8\u00a5\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b9\u0080\u00e0\u00b8\u00a3\u00e0\u00b9\u0087\u00e0\u00b8\u00a7\n\n\u00e0\u00b8\u00a7\u00e0\u00b8\u00b2\u00e0\u00b8\u0087\u00e0\u00b9\u0081\u00e0\u00b8\u009c\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b8\u00a5\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b9\u0080\u00e0\u00b8\u008a\u00e0\u00b8\u00b4\u00e0\u00b8\u0087\u00e0\u00b8\u00a3\u00e0\u00b8\u00b8\u00e0\u00b8\u0081\n\u00e0\u00b8\u00aa\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u0096\u00e0\u00b8\u00ad\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b9\u0081\u00e0\u00b8\u009a\u00e0\u00b8\u009a\u00e0\u00b8\u00a3\u00e0\u00b8\u00b0\u00e0\u00b8\u009a\u00e0\u00b8\u009a Early Warning System \u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u0084\u00e0\u00b8\u0093\u00e0\u00b8\u00b0\u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b8\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00a2\u00e0\u00b9\u008c\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b6\u00e0\u00b8\u0081\u00e0\u00b8\u00a9\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b8\u00a5\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0094\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00a3\u00e0\u00b8\u00b5\u00e0\u00b9\u0084\u00e0\u00b8\u0097\u00e0\u00b8\u00a3\u00e0\u00b9\u008c\u00e0\u00b8\u0088\u00e0\u00b8\u00a3\u00e0\u00b8\u00b4\u00e0\u00b8\u0087\n\n\u00e0\u00b8\u00a5\u00e0\u00b8\u0094\u00e0\u00b8\u00ad\u00e0\u00b8\u00b1\u00e0\u00b8\u0095\u00e0\u00b8\u00a3\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00a3\u00e0\u00b8\u00b5\u00e0\u00b9\u0084\u00e0\u00b8\u0097\u00e0\u00b8\u00a3\u00e0\u00b9\u008c\n\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b8\u00aa\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u0096\u00e0\u00b8\u00a3\u00e0\u00b8\u00b0\u00e0\u00b8\u009a\u00e0\u00b8\u00b8\u00e0\u00b8\u009b\u00e0\u00b8\u00b1\u00e0\u00b8\u0088\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u00aa\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u00a2\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089 \u00e0\u00b8\u0081\u00e0\u00b9\u0087\u00e0\u00b8\u00aa\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u0096\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u0094\u00e0\u00b8\u0097\u00e0\u00b8\u00b3\u00e0\u00b9\u0082\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b8\u0087\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u0095\u00e0\u00b8\u00b4\u00e0\u00b8\u00a7\u00e0\u00b9\u0080\u00e0\u00b8\u00aa\u00e0\u00b8\u00a3\u00e0\u00b8\u00b4\u00e0\u00b8\u00a1 \u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b9\u0081\u00e0\u00b8\u009c\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b9\u0080\u00e0\u00b8\u00a3\u00e0\u00b8\u00b5\u00e0\u00b8\u00a2\u00e0\u00b8\u0099 \u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u0084\u00e0\u00b8\u00b3\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b6\u00e0\u00b8\u0081\u00e0\u00b8\u00a9\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b8\u0095\u00e0\u00b8\u00a3\u00e0\u00b8\u0087\u00e0\u00b8\u0088\u00e0\u00b8\u00b8\u00e0\u00b8\u0094\n\n\n2. \u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b0\u00e0\u00b9\u0082\u00e0\u00b8\u00a2\u00e0\u00b8\u008a\u00e0\u00b8\u0099\u00e0\u00b9\u008c\u00e0\u00b9\u0080\u00e0\u00b8\u008a\u00e0\u00b8\u00b4\u00e0\u00b8\u0087\u00e0\u00b8\u00a7\u00e0\u00b8\u00b4\u00e0\u00b8\u008a\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3 (Academic / Research Benefits)\n\n\u00e0\u00b8\u00aa\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u0096\u00e0\u00b9\u0083\u00e0\u00b8\u008a\u00e0\u00b9\u0089\u00e0\u00b9\u0080\u00e0\u00b8\u009b\u00e0\u00b9\u0087\u00e0\u00b8\u0099\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u00a1\u00e0\u00b8\u00b9\u00e0\u00b8\u00a5\u00e0\u00b8\u00a3\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a1\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u009b\u00e0\u00b8\u00b1\u00e0\u00b8\u0088\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u00a2\u00e0\u00b8\u00ad\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u0099 \u00e0\u00b9\u0080\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u0099 \u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u00a1\u00e0\u00b8\u00b9\u00e0\u00b8\u00a5\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u00a3\u00e0\u00b8\u00b5\u00e0\u00b8\u00a2\u00e0\u00b8\u0099 \u00e0\u00b8\u0084\u00e0\u00b8\u00a7\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b8\u00aa\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u0099\u00e0\u00b8\u00a3\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a1\u00e0\u00b9\u0083\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0088\u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u00a3\u00e0\u00b8\u00a1 \u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b8\u009b\u00e0\u00b8\u00b1\u00e0\u00b8\u008d\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2\u00e0\u00b8\u00aa\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u0099\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u00a7\n\n\u00e0\u00b9\u0080\u00e0\u00b8\u009b\u00e0\u00b9\u0087\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u0093\u00e0\u00b8\u00b5\u00e0\u00b8\u00a8\u00e0\u00b8\u00b6\u00e0\u00b8\u0081\u00e0\u00b8\u00a9\u00e0\u00b8\u00b2 (Case Study)\n\u00e0\u00b9\u0083\u00e0\u00b8\u008a\u00e0\u00b9\u0089\u00e0\u00b9\u0080\u00e0\u00b8\u009c\u00e0\u00b8\u00a2\u00e0\u00b9\u0081\u00e0\u00b8\u009e\u00e0\u00b8\u00a3\u00e0\u00b9\u0088\u00e0\u00b9\u0080\u00e0\u00b8\u009b\u00e0\u00b9\u0087\u00e0\u00b8\u0099\u00e0\u00b8\u0087\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b8\u00a7\u00e0\u00b8\u00b4\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u00a2\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b0\u00e0\u00b9\u0082\u00e0\u00b8\u00a2\u00e0\u00b8\u008a\u00e0\u00b8\u0099\u00e0\u00b9\u008c\u00e0\u00b8\u0095\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00aa\u00e0\u00b8\u0096\u00e0\u00b8\u00b2\u00e0\u00b8\u009a\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u00ad\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u0099 \u00e0\u00b9\u0086 \u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b9\u0080\u00e0\u00b8\u009c\u00e0\u00b8\u008a\u00e0\u00b8\u00b4\u00e0\u00b8\u008d\u00e0\u00b8\u009b\u00e0\u00b8\u00b1\u00e0\u00b8\u008d\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2\u00e0\u00b8\u0084\u00e0\u00b8\u00a5\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\n\n3. \u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b0\u00e0\u00b9\u0082\u00e0\u00b8\u00a2\u00e0\u00b8\u008a\u00e0\u00b8\u0099\u00e0\u00b9\u008c\u00e0\u00b9\u0080\u00e0\u00b8\u008a\u00e0\u00b8\u00b4\u00e0\u00b8\u0087\u00e0\u00b8\u0099\u00e0\u00b9\u0082\u00e0\u00b8\u00a2\u00e0\u00b8\u009a\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2 (Policy Benefits)\n\u00e0\u00b8\u00aa\u00e0\u00b8\u0099\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u00aa\u00e0\u00b8\u0099\u00e0\u00b8\u00b8\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u0081\u00e0\u00b8\u00b3\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b8\u0094\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u0093\u00e0\u00b8\u0091\u00e0\u00b9\u008c\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b8\u00a5\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\n\u00e0\u00b9\u0080\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u0099 \u00e0\u00b8\u0081\u00e0\u00b8\u00b3\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b8\u0094 GPA \u00e0\u00b8\u0082\u00e0\u00b8\u00b1\u00e0\u00b9\u0089\u00e0\u00b8\u0099\u00e0\u00b8\u0095\u00e0\u00b9\u0088\u00e0\u00b8\u00b3\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u0095\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a1\u00e0\u00b9\u0082\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b9\u0081\u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u00a1\u00e0\u00b8\u0095\u00e0\u00b8\u00b4\u00e0\u00b8\u00a7\u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b6\u00e0\u00b8\u0081\u00e0\u00b8\u00a9\u00e0\u00b8\u00b2\n\n\n\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b8\u00e0\u00b8\u0087\u00e0\u00b8\u00ab\u00e0\u00b8\u00a5\u00e0\u00b8\u00b1\u00e0\u00b8\u0081\u00e0\u00b8\u00aa\u00e0\u00b8\u00b9\u00e0\u00b8\u0095\u00e0\u00b8\u00a3\n\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b8\u009e\u00e0\u00b8\u009a\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7\u00e0\u00b8\u00b4\u00e0\u00b8\u008a\u00e0\u00b8\u00b2\u00e0\u00b9\u0083\u00e0\u00b8\u0094\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b8\u0084\u00e0\u00b8\u00a7\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b9\u0080\u00e0\u00b8\u00aa\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u00a2\u00e0\u00b8\u0087\u00e0\u00b8\u00aa\u00e0\u00b8\u00b9\u00e0\u00b8\u0087 \u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b8\u0088\u00e0\u00b8\u0099\u00e0\u00b8\u00b3\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u00aa\u00e0\u00b8\u00b9\u00e0\u00b9\u0088\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b9\u0080\u00e0\u00b8\u0099\u00e0\u00b8\u00b7\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2 \u00e0\u00b8\u00a7\u00e0\u00b8\u00b4\u00e0\u00b8\u0098\u00e0\u00b8\u00b5\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00aa\u00e0\u00b8\u00ad\u00e0\u00b8\u0099 \u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00a7\u00e0\u00b8\u00b1\u00e0\u00b8\u0094\u00e0\u00b8\u009c\u00e0\u00b8\u00a5",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1751942616063,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3671868866378170873"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1743078359425,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3597514074353134613"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1742994305253,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u00a7\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1742391929368,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u0097\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00f0\u009f\u0098\u00bf",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1742389293201,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1742389292129,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1741873872343,
+      "content": "\u00f0\u009f\u00ab\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1741873861948,
+      "content": "\u00e0\u00b8\u00a7\u00e0\u00b8\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740903115159,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0099\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00b9\u00e0\u00b9\u0088",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740903099192,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0094\u00e0\u00b8\u00b5\u00e0\u00b9\u008b\u00e0\u00b8\u00a2\u00e0\u00b8\u00a7\u00e0\u00b8\u00aa\u00e0\u00b8\u00b1\u00e0\u00b8\u0081\u00e0\u00b8\u009e\u00e0\u00b8\u00b1\u00e0\u00b8\u0081\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u0094\u00e0\u00b8\u00b9\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740903049828,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u008b\u00e0\u00b8\u00b4\u00e0\u00b8\u009f\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740903041994,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/1540570699941292.jpg",
+          "creation_timestamp": 1740903041
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740902994578,
+      "content": "\u00e0\u00b8\u009e\u00e0\u00b8\u00b6\u00e0\u00b9\u0088\u00e0\u00b8\u0087\u00e0\u00b8\u0081\u00e0\u00b8\u0094\u00e0\u00b8\u00ad\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740902964106,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00a1\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b8\u009b\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740891045660,
+      "content": "\u00e0\u00b9\u0082\u00e0\u00b8\u00ad\u00e0\u00b9\u0089\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u0084\u00e0\u00b8\u00b1\u00e0\u00b8\u009a",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740891039137,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740891027681,
+      "content": "\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u0081\u00e0\u00b8\u00b8\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b9\u0084\u00e0\u00b8\u009f\u00e0\u00b8\u009f\u00e0\u00b9\u0089\u00e0\u00b8\u00b2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740891014940,
+      "content": "\u00e0\u00b8\u008b\u00e0\u00b8\u00b1\u00e0\u00b8\u00811\u00e0\u00b8\u0097\u00e0\u00b8\u00b8\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740890967776,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b9\u00e0\u00b8\u00a2\u00e0\u00b8\u00b4\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740890947837,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740890936872,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u00a2\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b9\u0084\u00e0\u00b8\u009b",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740890923480,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b8\u0081\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740890907002,
+      "content": "\u00e0\u00b8\u0094\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740890881376,
+      "content": "\u00e0\u00b8\u00a5\u00e0\u00b8\u0087\u00e0\u00b8\u0094\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0081\u00e0\u00b8\u009b\u00e0\u00b9\u0089\u00e0\u00b8\u0087\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740574851617,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u0095\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740574843910,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0088\u00e0\u00b9\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740574840499,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740076037715,
+      "content": "Ok kub",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740076010990,
+      "content": "\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0094\u00e0\u00b8\u0084\u00e0\u00b8\u00ad\u00e0\u00b8\u00a1\u00e0\u00b8\u00a5\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740075963031,
+      "content": "\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u009a\u00e0\u00b8\u00ad\u00e0\u00b8\u00aa\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740075708630,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b9\u0084\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1740075707362,
+      "content": "\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1740075143281,
+      "content": "\u00e0\u00b8\u0099\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b8\u0087\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739903278105,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739903259853,
+      "content": "\u00e0\u00b8\u009e\u00e0\u00b8\u0099.\u00e0\u00b9\u0080\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0094\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u00a7\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u0094\u00e0\u00b8\u00b9\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b9\u0086",
+      "share": {
+        "share_text": "\u00e0\u00b8\u009e\u00e0\u00b8\u0099.\u00e0\u00b9\u0080\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0094\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u00a7\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u0094\u00e0\u00b8\u00b9\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b9\u0086"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739903240116,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b8\u00e0\u00b8\u0081\u00e0\u00b9\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u00a3\u00e0\u00b8\u00b9\u00e0\u00b9\u0089\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1\u00e0\u00b8\u00b7\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739902965144,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b9\u00e0\u00b8\u009a\u00e0\u00b8\u00a7\u00e0\u00b8\u0081 6 \u00e0\u00b8\u0097\u00e0\u00b8\u00b1\u00e0\u00b9\u0089\u00e0\u00b8\u0087\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u00a7\u00e0\u00b8\u0094\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u00a1\u00e0\u00b8\u0088\u00e0\u00b8\u0099\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u0081\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b8\u00ad\u00e0\u00b8\u00b5\u00e0\u00b8\u0081",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739902933205,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b9\u00e0\u00b8\u0087\u00e0\u00b8\u0087\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u0097\u00e0\u00b8\u00b3\u00e0\u00b9\u0084\u00e0\u00b8\u00a1 atk \u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00a2\u00e0\u00b8\u00ad\u00e0\u00b8\u00b0\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739902921414,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u009b\u00e0\u00b8\u00a3.\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739902905994,
+      "content": "\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0094\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b9\u0081\u00e0\u00b8\u00a5\u00e0\u00b9\u0089\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739902890015,
+      "content": "\u00e0\u00b8\u00ad\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00b9\u00e0\u00b9\u0088\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739902863181,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b9\u0084\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739902837310,
+      "content": "\u00e0\u00b8\u0099\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739553747098,
+      "content": "https://www.lnwtrue.com/th/romc",
+      "share": {
+        "link": "https://www.lnwtrue.com/th/romc",
+        "share_text": "https://www.lnwtrue.com/th/romc"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546840090,
+      "content": "\u00f0\u009f\u00ab\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739546814205,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546651764,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00a5\u00e0\u00b8\u009f\u00e0\u00b9\u0083\u00e0\u00b8\u0099\u00e0\u00b8\u0094\u00e0\u00b8\u00b4\u00e0\u00b8\u00aa\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u0094\u00e0\u00b8\u00b5\u00e0\u00b9\u008b\u00e0\u00b8\u00a2\u00e0\u00b8\u00a7\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b8\u0094\u00e0\u00b8\u00b9\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739546616505,
+      "content": "\u00e0\u00b9\u0083\u00e0\u00b8\u008a\u00e0\u00b9\u0088",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739546613166,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u0095\u00e0\u00b9\u0088\u00e0\u00b8\u0081\u00e0\u00b8\u00b8\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b8\u0097\u00e0\u00b8\u00b1\u00e0\u00b9\u0089\u00e0\u00b8\u0087gmail\u00e0\u00b8\u0097\u00e0\u00b8\u00b1\u00e0\u00b9\u0089\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u009a\u00e0\u00b8\u00ad\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546608689,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u0099\u00e0\u00b9\u0083\u00e0\u00b8\u0099\u00e0\u00b8\u0084\u00e0\u00b8\u00ad\u00e0\u00b8\u00a1\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739546604492,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0082\u00e0\u00b8\u00b6\u00e0\u00b9\u0089\u00e0\u00b8\u0099\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b8\u0081",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546594121,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b8\u009a\u00e0\u00b8\u00b1\u00e0\u00b8\u009f",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546584684,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0082\u00e0\u00b8\u00b6\u00e0\u00b9\u0089\u00e0\u00b8\u0099\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00ad\u00e0\u00b8\u00b0\u00e0\u00b9\u0084\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739546580749,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b9\u0087\u00e0\u00b8\u0099\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b8\u0095\u00e0\u00b8\u00b5\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739546575775,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00ad\u00e0\u00b9\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u00a7\u00e0\u00b9\u0083\u00e0\u00b8\u0099\u00e0\u00b8\u0095\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u00a7\u00e0\u00b9\u0089\u00e0\u00b8\u0097\u00e0\u00b8\u00b3\u00e0\u00b9\u0084\u00e0\u00b8\u00a3\u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739546561399,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b8\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b9\u0081\u00e0\u00b8\u00a5\u00e0\u00b9\u0089\u00e0\u00b8\u00a7\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0081\u00e0\u00b9\u0087\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546496384,
+      "content": "\u00e0\u00b8\u00ad\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u0095\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00b2\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b9\u0087\u00e0\u00b8\u009a\u00e0\u00b9\u0080\u00e0\u00b8\u00a7\u00e0\u00b8\u00a5",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546480845,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/3498706620424694.jpg",
+          "creation_timestamp": 1739546479
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546462764,
+      "content": "\u00e0\u00b8\u00ad\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b9\u0082\u00e0\u00b8\u0084\u00e0\u00b9\u008a\u00e0\u00b8\u0094\u00e0\u00b9\u0083\u00e0\u00b8\u0099\u00e0\u00b8\u0087\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546452851,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/1210149500678967.jpg",
+          "creation_timestamp": 1739546451
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546426140,
+      "content": "\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a5\u00e0\u00b9\u008a\u00e0\u00b8\u00ad\u00e0\u00b8\u0084\u00e0\u00b8\u00ad\u00e0\u00b8\u00b4\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739546417977,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b9\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b8\u0095\u00e0\u00b8\u00a3\u00e0\u00b8\u0087\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u009f\u00e0\u00b8\u00aa\u00e0\u00b8\u00ad\u00e0\u00b9\u0088\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739545246476,
+      "content": "\u00e0\u00b8\u0095\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b9\u0080\u00e0\u00b8\u00a1\u00e0\u00b8\u00a5\u00e0\u00b8\u0081\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739545239792,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0082\u00e0\u00b8\u00b6\u00e0\u00b9\u0089\u00e0\u00b8\u0099\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b8\u00b8refine\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739545226236,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0095\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b9\u0080\u00e0\u00b8\u00a1\u00e0\u00b8\u00a5\u00e0\u00b9\u0083\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739545206232,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b8\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u0099\u00e0\u00b9\u0084\u00e0\u00b8\u00ad\u00e0\u00b8\u0094\u00e0\u00b8\u00b5guest\u00e0\u00b8\u00ad\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739539259374,
+      "content": "\u00e0\u00b8\u0094\u00e0\u00b8\u00b8\u00e0\u00b8\u0087\u00e0\u00b8\u0094\u00e0\u00b8\u00b8\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739539184034,
+      "content": "\u00e0\u00b8\u0082\u00e0\u00b8\u00ad\u00e0\u00b8\u008a\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u0094\u00e0\u00b8\u00b5\u00e0\u00b9\u008b\u00e0\u00b8\u00a2\u00e0\u00b8\u00a7\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u009a\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b4\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739539156236,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0094\u00e0\u00b8\u00b5\u00e0\u00b9\u008b\u00e0\u00b8\u00a2\u00e0\u00b8\u00a7 hit \u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u009e\u00e0\u00b8\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739539146598,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b8\u00aa\u00e0\u00b8\u00b1\u00e0\u00b8\u0081 60",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739539141626,
+      "content": "Dex \u00e0\u00b8\u0081\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739539119425,
+      "content": "Ranger\u00e0\u00b8\u00ad\u00e0\u00b8\u00b1\u00e0\u00b8\u009estat\u00e0\u00b8\u00ad\u00e0\u00b8\u00b0\u00e0\u00b9\u0084\u00e0\u00b8\u00a3\u00e0\u00b8\u009a\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u0087\u00e0\u00b8\u00ad\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739281746477,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739281445294,
+      "content": "\u00e0\u00b8\u0082\u00e0\u00b8\u00ad\u00e0\u00b8\u00a5\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u0099 poe \u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u0099\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1739281427632,
+      "content": "\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1739281394583,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u0099 steam \u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u0084\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00b9\u00e0\u00b9\u0088\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1738129837095,
+      "content": "\u00f0\u009f\u00ab\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1738129330718,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u0097\u00e0\u00b9\u0089\u00e0\u00b8\u0087\u00e0\u00b8\u0084\u00e0\u00b8\u00b4\u00e0\u00b9\u0089\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1738129219426,
+      "content": "Ms team \u00e0\u00b8\u00aa\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u008a\u00e0\u00b8\u00a5\u00e0\u00b8\u0099\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1738129203789,
+      "content": "90c2yug",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1737086416857,
+      "content": "Audio call ended",
+      "call_duration": 40,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1737086373321,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1737084097068,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u00a3\u00e0\u00b8\u00b5\u00e0\u00b8\u00a2\u00e0\u00b8\u0099\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1737082550306,
+      "content": "Ok kubb\u00f0\u009f\u00ab\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1737080317234,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u0096\u00e0\u00b8\u00a7\u00e0\u00b8\u008b\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b8\u00b2\u00e0\u00b8\u0087\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1737080302862,
+      "content": "\u00e0\u00b8\u00a2\u00e0\u00b8\u00b8\u00e0\u00b8\u00aa\u00e0\u00b8\u009a\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u0099\u00e0\u00b8\u00b1\u00e0\u00b9\u0088\u00e0\u00b8\u0087\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1737080284823,
+      "content": "Audio call ended",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1737080266568,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1735119544376,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/605941628550577.jpg",
+          "creation_timestamp": 1735119543
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1735118873588,
+      "content": "40ma friend",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1735118864909,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/1304824190645763.jpg",
+          "creation_timestamp": 1735118864
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1733068366839,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/2128462280945684"
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+          "timestamp": 1733068394
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1733068260951,
+      "content": "\u00f0\u009f\u00ab\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1733068245755,
+      "content": "\u00e0\u00b8\u0082\u00e0\u00b8\u00ad\u00e0\u00b8\u00a3\u00e0\u00b8\u00b9\u00e0\u00b8\u009b\u00e0\u00b9\u0080\u00e0\u00b8\u0089\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2math stat\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00ad1\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009a2\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1733068240473,
+      "content": "\u00e0\u00b8\u0084\u00e0\u00b8\u00b1\u00e0\u00b8\u009a",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1733068228208,
+      "content": "\u00e0\u00b8\u009e\u00e0\u00b8\u00b6\u00e0\u00b9\u0089\u00e0\u00b8\u0081",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1732846151038,
+      "content": "You missed an audio call",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1732846092574,
+      "content": "pruk_cn started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1732689526237,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1732689522265,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/1654913341723720"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1732466398291,
+      "content": "No money \u00e0\u00b8\u00ad\u00e0\u00b8\u00b0\u00e0\u00b8\u0094\u00e0\u00b8\u00b4",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1732459352765,
+      "content": "\u00e0\u00b8\u0088\u00e0\u00b8\u00b0\u00e0\u00b8\u00ad\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u0096\u00e0\u00b8\u00a3\u00e0\u00b8\u00b8\u00e0\u00b9\u0088\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b9\u0088\u00e0\u00b8\u00ad",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3508436750597358284"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726751558194,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726751543359,
+      "content": "\u00e0\u00b8\u0082\u00e0\u00b8\u00ad\u00e0\u00b8\u009a\u00e0\u00b8\u0084\u00e0\u00b8\u00b8\u00e0\u00b8\u0093\u00e0\u00b8\u0084\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u009e\u00e0\u00b8\u00a3\u00e0\u00b8\u00b5\u00e0\u00b9\u0088",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726751533510,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726748268647,
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Chanathip Naowakul",
+          "timestamp": 1726751533
+        }
+      ],
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3460537700930209956"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726735053651,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0094\u00e0\u00b8\u00b5\u00e0\u00b9\u008b\u00e0\u00b8\u00a2\u00e0\u00b8\u00a7\u00e0\u00b9\u0080\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u0095\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u0084\u00e0\u00b9\u0088\u00e0\u00b8\u00b3\u00e0\u00b9\u0086\u00e0\u00b8\u0099\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726734052270,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u0099\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726652826597,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a5\u00e0\u00b8\u00b0\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726652209005,
+      "content": "\u00e0\u00b9\u0083\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b9\u0089\u00e0\u00b8\u0096\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b8\u00a5\u00e0\u00b8\u00b0\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726652200466,
+      "content": "\u00e0\u00b8\u0084\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u009e\u00e0\u00b8\u00b5\u00e0\u00b9\u0088",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726651983176,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00a3\u00e0\u00b9\u0087\u00e0\u00b8\u00a7\u00e0\u00b8\u0099\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726486780480,
+      "content": "\u00f0\u009f\u00ab\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726486455857,
+      "content": "\u00e0\u00b8\u0088\u00e0\u00b8\u00b0\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0099\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7\u00e0\u00b8\u00ad\u00e0\u00b8\u00b0\u00e0\u00b8\u0094\u00e0\u00b8\u00b4",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726485173328,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00a1\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726479148242,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u009b\u00e0\u00b8\u00a3\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726476470642,
+      "content": "\u00e0\u00b9\u0082\u00e0\u00b8\u0097\u00e0\u00b8\u0094\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b8\u009e\u00e0\u00b8\u00b6\u00e0\u00b9\u0088\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b9\u0087\u00e0\u00b8\u0099\u00e0\u00b9\u0081\u00e0\u00b8\u008a\u00e0\u00b8\u0097",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726476450285,
+      "content": "\u00e0\u00b9\u0083\u00e0\u00b8\u008a\u00e0\u00b9\u0088\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726472213559,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0088\u00e0\u00b8\u0099roblox\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00b9\u00e0\u00b9\u0088\u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726472206103,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1726472205177,
+      "content": "\u00e0\u00b8\u009e\u00e0\u00b8\u00b6\u00e0\u00b9\u0089\u00e0\u00b8\u0081",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726204421310,
+      "content": "You missed an audio call",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1726204367053,
+      "content": "pruk_cn started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1725948816742,
+      "content": "\u00c5\u00b6 = Xb",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1725936503218,
+      "content": "Audio call ended",
+      "call_duration": 26,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1725936469749,
+      "content": "pruk_cn started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1724773686699,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1724773676538,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u0097\u00e0\u00b9\u0089\u00e0\u00b8\u0087\u00e0\u00b8\u0084\u00e0\u00b8\u00b4\u00e0\u00b9\u0089\u00e0\u00b8\u00a7\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u0099",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Chanathip Naowakul",
+          "timestamp": 1724773686
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1724773672890,
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3443973551278433133"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1724773441368,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1724391669827,
+      "content": "\u00f0\u009f\u00ab\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1724390872453,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u0094\u00e0\u00b8\u00b9\u00e0\u00b8\u0094\u00e0\u00b9\u0080\u00e0\u00b8\u0099\u00e0\u00b8\u00b7\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1724390858014,
+      "content": "Hello my friend",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1723521758636,
+      "content": "Audio call ended",
+      "call_duration": 43,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1723521705847,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1723204276172,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1723204045034,
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3430806009823195066"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1721623285532,
+      "content": "Audio call ended",
+      "call_duration": 64,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1721623198419,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1721622879869,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1721365193441,
+      "content": "You missed an audio call",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1721365135177,
+      "content": "pruk_cn started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1721360287510,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b8\u009c\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u00a3\u00e0\u00b8\u009a\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1720750903799,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1720750891736,
+      "content": "\u00e0\u00b8\u00a7\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1720750881058,
+      "content": "You missed an audio call",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1720750862139,
+      "content": "pruk_cn started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1720750368896,
+      "content": "Audio call ended",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1720750342175,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1720749969368,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1720749965278,
+      "content": "Audio call ended",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1720749937614,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1719972365646,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1719972340332,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0094\u00e0\u00b8\u00b5\u00e0\u00b9\u008b\u00e0\u00b8\u00a2\u00e0\u00b8\u00a7\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u0081\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1719972046085,
+      "content": "\u00e0\u00b8\u009e\u00e0\u00b8\u00a7\u00e0\u00b8\u0081\u00e0\u00b8\u0081\u00e0\u00b8\u00b9\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad\u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u00ad\u00e0\u00b9\u0080\u00e0\u00b8\u00a1\u00e0\u00b8\u008b\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1719972032511,
+      "content": "\u00e0\u00b9\u0083\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b9\u0089\u00e0\u00b8\u0096\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b8\u0087\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1719680160420,
+      "content": "pruk_cn wasn't notified about this message because they're in quiet mode.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1719680160160,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u0094\u00e0\u00b8\u0082\u00e0\u00b8\u00b6\u00e0\u00b9\u0089\u00e0\u00b8\u0099\u00e0\u00b8\u00a5\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1719677319080,
+      "content": "\u00e0\u00b8\u00ab\u00e0\u00b8\u00a7\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0099\u00e0\u00b8\u0099\u00e0\u00b8\u0099",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3400951591342772934"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1716916327876,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3378056200637235873"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1710407659617,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/chanathipnaowakul_1169224304467907/photos/351343791241888"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1709275489048,
+      "content": "Audio call ended",
+      "call_duration": 26,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1709275453411,
+      "content": "pruk_cn started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1708914440360,
+      "content": "\u00e0\u00b8\u0088\u00e0\u00b8\u00a3\u00e0\u00b8\u00b4\u00e0\u00b8\u0087",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1708893187760,
+      "content": "Chanathip sent an attachment.",
+      "share": {
+        "link": "https://www.instagram.com/reel/C3ujk2sP_uq/?id=3309739240417393578_64407733961",
+        "share_text": "\u00e0\u00b8\u00a0\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7\u00e0\u00b8\u00b0\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b8\u00b1\u00e0\u00b8\u00a7\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u0081 \u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0094\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b9\u0089\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u008a\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u0099\u00e0\u00b8\u008a\u00e0\u00b8\u00ad\u00e0\u00b8\u009a\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0099\u00e0\u00b8\u009a\u00e0\u00b8\u00b8\u00e0\u00b8\u009f\u00e0\u00b9\u0080\u00e0\u00b8\u009f\u00e0\u00b9\u0088\u00e0\u00b8\u0095\u00e0\u00b9\u008c #\u00e0\u00b8\u009a\u00e0\u00b8\u00b8\u00e0\u00b8\u009f\u00e0\u00b9\u0080\u00e0\u00b8\u009f\u00e0\u00b9\u0088\u00e0\u00b8\u0095\u00e0\u00b9\u008c #\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099 #\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0099 #\u00e0\u00b8\u008a\u00e0\u00b8\u00b2\u00e0\u00b8\u009a\u00e0\u00b8\u00b9 #\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b9\u0089\u00e0\u00b8\u0087\u00e0\u00b8\u00a2\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u0087 #\u00e0\u00b8\u0095\u00e0\u00b8\u00a5\u00e0\u00b8\u0081",
+        "original_content_owner": "kakman.story"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1708679215087,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1708678780022,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u0081\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099 \u00e0\u00b8\u00a3\u00e0\u00b8\u009f. \u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00a5\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1708591903651,
+      "content": "def calculate_fare(station, discount_type):\n    normal_fare = 0\n\n    if station == 'A1':\n        normal_fare = 15\n    elif station == 'A2' or station == 'A3':\n        normal_fare = 20\n    else:\n        normal_fare = 25\n\n    if discount_type == 'std':\n        normal_fare *= 0.8\n    elif discount_type == 'old':\n        normal_fare *= 0.5\n\n    return normal_fare\n\n\ndef main():\n    station_summary = {'A1': 0, 'A2': 0, 'A3': 0, 'A4': 0, 'A5': 0, 'A6': 0, 'A7': 0, 'A8': 0}\n    total_passengers = 0\n    total_fare = 0\n\n    while True:\n        print(\"******* \u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00aa\u00e0\u00b8\u0096\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b8\u009b\u00e0\u00b8\u00a5\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u0097\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u0087 *******\")\n        station = input(\"\u00e0\u00b8\u00aa\u00e0\u00b8\u0096\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b8\u009b\u00e0\u00b8\u00a5\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u0097\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u0087: \")\n        if station not in station_summary:\n            print(\"\u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u00b8\u00e0\u00b8\u0093\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad\u00e0\u00b8\u0081\u00e0\u00b8\u00aa\u00e0\u00b8\u0096\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u0096\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b8\u0095\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\")\n            continue\n\n        passengers = int(input(\"\u00e0\u00b8\u0088 \u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b8\u00a7\u00e0\u00b8\u0099\u00e0\u00b8\u009c\u00e0\u00b8\u00b9\u00e0\u00b9\u0089\u00e0\u00b9\u0082\u00e0\u00b8\u0094\u00e0\u00b8\u00a2\u00e0\u00b8\u00aa\u00e0\u00b9\u008d\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3: \"))\n        discount_type = input(\"\u00e0\u00b8\u00aa\u00e0\u00b9\u0088\u00e0\u00b8\u00a7\u00e0\u00b8\u0099\u00e0\u00b8\u00a5\u00e0\u00b8\u0094 (none/std/old): \")\n\n        fare = calculate_fare(station, discount_type) * passengers\n        total_fare += fare\n        total_passengers += passengers\n        stat",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1708064622794,
+      "content": "\u00f0\u009f\u0098\u0082",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3303795706837837706"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1704043698662,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1704043692236,
+      "content": "\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u0094\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u0099\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u00a3\u00e0\u00b8\u00b1\u00e0\u00b8\u0081",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Chanathip Naowakul",
+          "timestamp": 1704043698
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1704043668942,
+      "content": "\u00e0\u00b8\u00a7\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u0087\u00e0\u00b9\u0086\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b8\u00aa\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u008a\u00e0\u00b8\u00b4\u00e0\u00b8\u0087 tft \u00e0\u00b8\u00ab\u00e0\u00b8\u0099\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2555",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1704043655598,
+      "content": "Happynewyear\u00e0\u00b8\u0084\u00e0\u00b8\u00b1\u00e0\u00b8\u009a\u00e0\u00b8\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3\u00e0\u00b8\u00a2\u00e0\u00b9\u008c",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+          "timestamp": 1704043696
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1704043637789,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1704043626444,
+      "content": "You sent an attachment.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Chanathip Naowakul",
+          "timestamp": 1704043637
+        }
+      ],
+      "share": {
+        "link": "https://www.instagram.com/p/C1e8GMXy9mQ/",
+        "share_text": "\u00e0\u00b8\u0096\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b9\u0081\u00e0\u00b8\u0081\u00e0\u00b8\u009a\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00ad\u00e0\u00b8\u00b4\u00e0\u00b8\u008d\u00e0\u00b8\u009c\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u0099\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u0088\u00e0\u00b8\u00ad\u00e0\u00b9\u0082\u00e0\u00b8\u009e\u00e0\u00b8\u00aa\u00e0\u00b8\u0095\u00e0\u00b9\u008c\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0089 \u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00ad\u00e0\u00b8\u0084\u00e0\u00b8\u00a7\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b8\u0097\u00e0\u00b8\u00b1\u00e0\u00b9\u0089\u00e0\u00b8\u0087\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1\u00e0\u00b8\u0094\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0088 \u00e0\u00b9\u0080\u00e0\u00b8\u009b\u00e0\u00b9\u0087\u00e0\u00b8\u0099\u00e0\u00b8\u0082\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b9\u0081\u00e0\u00b8\u0081\u00e0\u00b8\u0099\u00e0\u00b8\u00b0 :)",
+        "original_content_owner": "sundayisbliss"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1702522129571,
+      "content": "Ducky#9403",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1702522082865,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00ad\u00e0\u00b8\u00b2\u00e0\u00b8\u008a\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u00a1\u00e0\u00b8\u00b2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Chanathip Naowakul",
+      "timestamp_ms": 1695895288809,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1695894075748,
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3201705649340204522"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Chanathip Naowakul",
+  "is_still_participant": true,
+  "thread_path": "inbox/chanathipnaowakul_1169224304467907",
+  "magic_words": [
+    
+  ]
+}

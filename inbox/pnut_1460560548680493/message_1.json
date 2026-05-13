@@ -1,0 +1,92 @@
+{
+  "participants": [
+    {
+      "name": "PNUT"
+    },
+    {
+      "name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1761312423537,
+      "content": "\u00e0\u00b9\u0082\u00e0\u00b8\u00ad\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1761309219051,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1761304948255,
+      "content": "\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b8\u00b0\u00e0\u00b8\u0097\u00e0\u00b8\u00b0\u00e0\u00b8\u0082\u00e0\u00b9\u0089\u00e0\u00b8\u00b2\u00e0\u00b8\u0087\u00e0\u00b8\u00ab\u00e0\u00b8\u00ad\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a2\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0099\u00e0\u00b8\u00a1\u00e0\u00b8\u00b1\u00e0\u00b9\u0089\u00e0\u00b8\u00a2\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1761304934557,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1740836327498,
+      "content": "Audio call ended",
+      "call_duration": 58,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1740836318566,
+      "content": "3403",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1740836229813,
+      "content": "peanuts_psk started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1738591624558,
+      "content": "\u00e0\u00b8\u0088\u00e0\u00b8\u00b1\u00e0\u00b8\u0094\u00e0\u00b9\u0084\u00e0\u00b8\u009b",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1738582167040,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0097\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u00a2\u00e0\u00b8\u00a7\u00e0\u00b9\u0080\u00e0\u00b8\u009c\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u0099 \u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2\u00e0\u00b8\u00a2",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3559782029661559319"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "PNUT",
+      "timestamp_ms": 1730202964330,
+      "content": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "PNUT",
+  "is_still_participant": true,
+  "thread_path": "inbox/pnut_1460560548680493",
+  "magic_words": [
+    
+  ]
+}

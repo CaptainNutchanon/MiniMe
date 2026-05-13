@@ -1,0 +1,56 @@
+{
+  "participants": [
+    {
+      "name": "George Hindle"
+    },
+    {
+      "name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "George Hindle",
+      "timestamp_ms": 1690440511037,
+      "content": "\u00e0\u00b8\u0094\u00e0\u00b8\u00a7\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u0094\u00e0\u00b8\u00b5 \u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b9\u0087\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u0094\u00e0\u00b8\u00b5\u00e0\u00b8\u009b\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b8\u00a7555",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "George Hindle",
+      "timestamp_ms": 1690440491287,
+      "content": "55544555",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1690424334175,
+      "content": "55555566556",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1690424331021,
+      "content": "\u00e0\u00b8\u0084\u00e0\u00b8\u00a7\u00e0\u00b8\u00a2\u00e0\u00b9\u0081\u00e0\u00b8\u0097\u00e0\u00b8\u0087\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u00a5\u00e0\u00b8\u0087\u00e0\u00b9\u0080\u00e0\u00b8\u00a5\u00e0\u00b8\u00a2",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "George Hindle",
+      "timestamp_ms": 1690400876785,
+      "content": "\u00e0\u00b9\u0081\u00e0\u00b8\u009e\u00e0\u00b9\u0089\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3155428532650912317"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "George Hindle",
+  "is_still_participant": true,
+  "thread_path": "inbox/georgehindle_835263077864033",
+  "magic_words": [
+    
+  ]
+}

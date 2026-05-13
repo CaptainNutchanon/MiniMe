@@ -1,0 +1,86 @@
+{
+  "participants": [
+    {
+      "name": "Witcha Nieobubpa"
+    },
+    {
+      "name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1707486595101,
+      "content": "Audio call ended",
+      "call_duration": 52,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1707486535394,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Witcha Nieobubpa",
+      "timestamp_ms": 1707485624871,
+      "content": "You missed an audio call",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Witcha Nieobubpa",
+      "timestamp_ms": 1707485610039,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b8\u0087\u00e0\u00b8\u00b2\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00b4\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Witcha Nieobubpa",
+      "timestamp_ms": 1707485606349,
+      "content": "\u00e0\u00b8\u00a2\u00e0\u00b8\u00b1\u00e0\u00b8\u0087\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00b9\u00e0\u00b9\u0088\u00e0\u00b9\u0080\u00e0\u00b8\u0081\u00e0\u00b8\u00a9\u00e0\u00b8\u0095\u00e0\u00b8\u00a3\u00e0\u00b8\u009b\u00e0\u00b9\u0089\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Witcha Nieobubpa",
+      "timestamp_ms": 1707485596712,
+      "content": "\u00e0\u00b9\u0082\u00e0\u00b8\u00ab\u00e0\u00b8\u00a5\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Witcha Nieobubpa",
+      "timestamp_ms": 1707485565232,
+      "content": "_maideamour started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1691119782198,
+      "content": "\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1\u00e0\u00b8\u00b9\u00e0\u00b8\u0081\u00e0\u00b8\u00a5\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u009e\u00e0\u00b8\u00b1\u00e0\u00b8\u0099\u00e0\u00b8\u0098\u00e0\u00b8\u00b8\u00e0\u00b9\u008c",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Witcha Nieobubpa",
+      "timestamp_ms": 1691118863173,
+      "content": "\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u00a7\u00e0\u00b9\u0080\u00e0\u00b8\u00ab\u00e0\u00b8\u00b5\u00e0\u00b9\u0089\u00e0\u00b8\u00a2\u00e0\u00b9\u0084\u00e0\u00b8\u00a3\u00e0\u00b9\u0080\u00e0\u00b8\u0099\u00e0\u00b8\u00b5\u00e0\u00b9\u0088\u00e0\u00b8\u00a2",
+      "share": {
+        "link": "https://www.instagram.com/stories/captainn.kul/3161119090706831476"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Witcha Nieobubpa",
+  "is_still_participant": true,
+  "thread_path": "inbox/witchanieobubpa_1137118084345196",
+  "magic_words": [
+    
+  ]
+}

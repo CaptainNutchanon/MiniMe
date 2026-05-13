@@ -1,0 +1,152 @@
+{
+  "participants": [
+    {
+      "name": "Nattakon"
+    },
+    {
+      "name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1711447593635,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1711447570605,
+      "content": "\u00e0\u00b9\u0083\u00e0\u00b8\u008a\u00e0\u00b9\u0088",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Nattakon",
+          "timestamp": 1711447593
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1711447555624,
+      "content": "\u00e0\u00b8\u0082\u00e0\u00b8\u00ad\u00e0\u00b8\u0087\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1711447551157,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1711447519976,
+      "content": "500",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1711447516297,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1711447482597,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0096\u00e0\u00b8\u00b2\u00e0\u00b8\u00a1\u00e0\u00b9\u0083\u00e0\u00b8\u00ab\u00e0\u00b9\u0089",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1711447476484,
+      "content": "\u00e0\u00b8\u0082\u00e0\u00b8\u00b2\u00e0\u00b8\u00a2\u00e0\u00b8\u00ab\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad \u00e0\u00b9\u0080\u00e0\u00b8\u0097\u00e0\u00b9\u0088\u00e0\u00b8\u00b2\u00e0\u00b9\u0084\u00e0\u00b8\u00a3 \u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u00a7\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u0099",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1711447459219,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1711446861142,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad\u00e0\u00b8\u0099\u00e0\u00b8\u00a1\u00e0\u00b8\u00b6\u00e0\u00b8\u0087\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b9\u0083\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad\u00e0\u00b8\u00a2\u00e0\u00b8\u00b2\u00e0\u00b8\u0081\u00e0\u00b9\u0084\u00e0\u00b8\u0094\u00e0\u00b9\u0089\u00e0\u00b8\u009e\u00e0\u00b8\u00ad\u00e0\u00b8\u0095\u00e0\u00b8\u00ad\u00e0\u00b8\u00b5\u00e0\u00b8\u0081\u00e0\u00b8\u009b\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1701070966253,
+      "content": "\u00e0\u00b9\u0080\u00e0\u00b8\u0084\u00e0\u00b8\u00a3\u00e0\u00b9\u0086",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1701070962223,
+      "content": "\u00e0\u00b9\u0084\u00e0\u00b8\u00a1\u00e0\u00b9\u0088\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b9\u0084\u00e0\u00b8\u00a3\u00e0\u00b9\u0081\u00e0\u00b8\u00a5\u00e0\u00b9\u0089\u00e0\u00b8\u00a7",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1701070952096,
+      "content": "Audio call ended",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1701070949366,
+      "content": "\u00e0\u00b8\u00a1\u00e0\u00b8\u00b5\u00e0\u00b9\u0084\u00e0\u00b8\u00a3\u00e0\u00b8\u00ad\u00e0\u00b8\u00b0",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "\u00e0\u00b8\u0081\u00e0\u00b8\u00b1\u00e0\u00b8\u009b\u00e0\u00b8\u009b\u00e0\u00b8\u00b4\u00e0\u00b8\u0095\u00e0\u00b8\u00b1\u00e0\u00b8\u0099",
+      "timestamp_ms": 1701070932934,
+      "content": "You started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1701069997665,
+      "content": "You missed an audio call",
+      "call_duration": 0,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1701069953789,
+      "content": "zornack.n started an audio call",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Nattakon",
+      "timestamp_ms": 1699620496949,
+      "content": "\u00e0\u00b8\u00ab\u00e0\u00b8\u00b2\u00e0\u00b8\u00a3grab\u00e0\u00b9\u0084\u00e0\u00b8\u009b\u00e0\u00b8\u009e\u00e0\u00b8\u0099\u00e0\u00b9\u0084\u00e0\u00b8\u00ab\u00e0\u00b8\u00a1\u00e0\u00b9\u0080\u00e0\u00b8\u009e\u00e0\u00b8\u00b7\u00e0\u00b9\u0088\u00e0\u00b8\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Nattakon",
+  "is_still_participant": true,
+  "thread_path": "inbox/nattakon_1291107732289408",
+  "magic_words": [
+    
+  ]
+}
