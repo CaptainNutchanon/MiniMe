@@ -4,7 +4,7 @@ import shutil
 # ── Step 3: Flatten raw inbox ─────────────────────────────────────────────────
 # Moves all JSON files from sub-folders up to data/raw/ root, then deletes the sub-folders
 
-raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw'))
+raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw_data'))
 
 for name in os.listdir(raw_dir):
     folder = os.path.join(raw_dir, name)

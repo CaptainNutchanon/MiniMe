@@ -60,7 +60,7 @@ def clean_message(msg):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 base     = os.path.dirname(os.path.abspath(__file__))
-raw_dir  = os.path.normpath(os.path.join(base, '..', 'data', 'raw'))
+raw_dir  = os.path.normpath(os.path.join(base, '..', 'data', 'raw_data'))
 out_dir  = os.path.normpath(os.path.join(base, '..', 'data', 'filtered'))
 os.makedirs(out_dir, exist_ok=True)
 

@@ -5,7 +5,7 @@ import glob
 # Prefixes each JSON file with its parent folder name (before the first underscore)
 # e.g. pimminuch_abc123/message_1.json → pimminuch_abc123/pimminuch.json
 
-raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw'))
+raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw_data'))
 
 for folder_name in os.listdir(raw_dir):
     folder = os.path.join(raw_dir, folder_name)

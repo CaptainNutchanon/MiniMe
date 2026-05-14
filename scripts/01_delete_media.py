@@ -6,7 +6,7 @@ import shutil
 
 TARGET_NAMES = {'audio', 'photos', 'videos'}
 
-raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw'))
+raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw_data'))
 
 for dirpath, dirnames, _ in os.walk(raw_dir, topdown=True):
     for name in list(dirnames):
