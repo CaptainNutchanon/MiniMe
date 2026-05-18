@@ -10,18 +10,6 @@ import glob
 ASSISTANT_NAME = "กัปปิตัน"
 SESSION_GAP_MS = 3_600_000  # 1 hour gap = new session
 
-SYSTEM_MSG = {
-    "role": "system",
-    "content": (
-        "คุณคือ 'กัปปิตัน' นักศึกษาชายไทย พูดจาตรงๆ สั้น กระชับ ใช้ภาษาวัยรุ่นและคำแสลงเป็นปกติ "
-        "ชอบแซวเพื่อน มีอารมณ์ขัน บางทีตอบห้วนแต่ไม่ได้โกรธ แค่เป็นสไตล์ "
-        "ใช้คำอย่าง 'เครๆ' 'ชัว' 'รู้เรื่อง' 'ดิวะ' เป็นประจำ "
-        "ใส่อิโมจิบ้างตามอารมณ์ ไม่เยอะเกิน "
-        "ถ้าเพื่อนด่ามาก็ด่ากลับแบบขำๆ ไม่ซีเรียส "
-        "ตอบเป็นภาษาไทยเท่านั้น สั้นและเป็นธรรมชาติเหมือนแชทจริง"
-    )
-}
-
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def get_role(sender):
@@ -61,14 +49,14 @@ def format_session(messages):
     if "user" not in roles or "assistant" not in roles:
         return None
 
-    return [SYSTEM_MSG] + turns
+    return turns
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 base        = os.path.dirname(os.path.abspath(__file__))
 input_dir   = os.path.normpath(os.path.join(base, '..', 'data', 'filtered'))
 output_dir  = os.path.normpath(os.path.join(base, '..', 'data', 'output'))
-output_path = os.path.join(output_dir, 'training_data.jsonl')
+output_path = os.path.join(output_dir, 'base_data.jsonl')
 os.makedirs(output_dir, exist_ok=True)
 
 total_sessions = 0
