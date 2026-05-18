@@ -1,2 +1,6 @@
 # Data folder (contains raw/personal data, not tracked in git)
 data/
+
+# Python cache files
+__pycache__/
+*.py[cod]
