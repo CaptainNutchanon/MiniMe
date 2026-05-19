@@ -1,6 +1,12 @@
+# Virtual Environment
+captain-env/
+
 # Data folder (contains raw/personal data, not tracked in git)
 data/
 
 # Python cache files
 __pycache__/
 *.py[cod]
+
+# Unsloth compiled cache
+unsloth_compiled_cache/
