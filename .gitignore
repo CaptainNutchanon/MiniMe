@@ -10,3 +10,6 @@ __pycache__/
 
 # Unsloth compiled cache
 unsloth_compiled_cache/
+
+# Training output (LoRA weights — large files, do not commit)
+output/
