@@ -77,12 +77,29 @@ MiniMe/
 | ฟีเจอร์ | รายละเอียด |
 |---|---|
 | แก้ encoding | Thai text ที่ถูก save ผิดเป็น Latin1 → แปลงกลับเป็น UTF-8 |
-| ลบข้อความระบบ | "sent an attachment", "แชร์โพสต์", "started an audio call" ฯลฯ |
+| ลบข้อความระบบ | attachment, แชร์โพสต์/สตอรี่, audio/video call, live location, changed the theme, Audio call started ฯลฯ |
 | ลบ URL | https, www, facebook.com, instagram.com, youtube.com |
+| ลบ reactions | ขึ้นต้นด้วย "Reacted " หรือ "Liked " |
+| Merge หลาย parts | Facebook แบ่ง conversation ยาวเป็น `message_1.json`, `message_2.json` ฯลฯ — script merge ทุก part เข้าด้วยกันก่อน process |
 | กรอง Group Chat | ถ้ามี participants > 2 คน → ข้ามทั้ง conversation |
 | กรอง Monologue | ถ้ามีแค่คนเดียวพูด → ข้ามทั้ง conversation |
 
-- **Output:** `data/filtered/*.json` (รูปแบบ: list ของ `{sender, content, timestamp}`)
+**SKIP_SUBSTRINGS (ครบทั้งหมด):**
+```python
+SKIP_SUBSTRINGS = {
+    "sent an attachment", "ส่งไฟล์แนบ",
+    "แชร์โพสต์", "แชร์สตอรี่", "shared a story",
+    "quiet mode",
+    "started an audio call", "started a video chat",
+    "missed an audio call", "missed a video chat",
+    "Call ended",
+    "sent a live location", "ส่งตำแหน่งที่ตั้งแบบเรียลไทม์",
+    "changed the theme",
+    "Audio call started",
+}
+```
+
+- **Output:** `data/filtered/<folder_name>.json` (ชื่อไฟล์ตาม conversation folder, รูปแบบ: list ของ `{sender, content, timestamp}`)
 
 ---
 
@@ -240,7 +257,7 @@ Instagram DM Export (raw JSON)
 ## 📊 Dataset Statistics (ข้อมูลจริง)
 
 > [!NOTE]
-> สถิติจากการรัน `python -X utf8 scripts/count_stats.py`
+> อัปเดตล่าสุด: **29 พ.ค. 2026** หลังลบ conversations ที่ไม่ได้ใช้ออกจาก `filtered/` และ rebuild pipeline ใหม่
 
 ### ก่อน Clean — `raw_data/`
 
@@ -248,32 +265,30 @@ Instagram DM Export (raw JSON)
 |---|---:|
 | Conversations (folders) | **161** |
 | Group chats (ถูก skip) | 10 |
-| ข้อความที่มี content | **48,254** |
+| Monologue (ถูก skip) | 10 |
+| Empty after cleaning (ถูก skip) | 9 |
 
 ### หลัง Clean — `filtered/`
 
 | รายการ | จำนวน |
 |---|---:|
-| Conversations ที่เหลือ | **129** |
-| Conversations ที่ถูกตัดออก | 32 |
-| ข้อความที่เหลือ | **34,064** |
-| ข้อความที่ถูกตัดออก | 14,190 |
-| Retention rate | **70.6%** |
+| Conversations ที่เหลือ | **73** |
+| Multi-part conversations (merged) | **1** (pimmu — 2 parts) |
 
 ### Sessions — `base_data.jsonl`
 
 | รายการ | จำนวน |
 |---|---:|
-| Total sessions | **3,065** |
-| Total turns (messages) | 17,950 |
-| Avg turns per session | **5.9** |
+| Total sessions | **3,054** |
+| Total messages | **18,298** |
+| Avg turns/session | **6.0** |
 
 ### Train / Val Split
 
 | ไฟล์ | Sessions | Messages | Avg turns | สัดส่วน |
 |---|---:|---:|---:|---:|
-| `train.jsonl` | **2,911** | **17,062** | 5.9 | 95% |
-| `val.jsonl` | **154** | **888** | 5.8 | 5% |
+| `train.jsonl` | **2,901** | **17,333** | 6.0 | 95% |
+| `val.jsonl` | **153** | **965** | 6.3 | 5% |
 
 ---
 

@@ -17,6 +17,9 @@ SKIP_SUBSTRINGS = {
     "started an audio call", "started a video chat",
     "missed an audio call", "missed a video chat",
     "Call ended",
+    "sent a live location", "ส่งตำแหน่งที่ตั้งแบบเรียลไทม์",
+    "changed the theme",
+    "Audio call started",
 }
 SKIP_PREFIXES = ("Reacted ", "Liked ")
 
@@ -66,38 +69,66 @@ os.makedirs(out_dir, exist_ok=True)
 
 skipped = []
 
-for filepath in glob.glob(os.path.join(raw_dir, '*.json')):
-    filename = os.path.basename(filepath)
+# ── Group message_N.json files by their parent conversation folder ─────────
+conv_dirs = [
+    d for d in glob.glob(os.path.join(raw_dir, '*'))
+    if os.path.isdir(d)
+]
 
-    with open(filepath, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+used_names = {}  # short_name -> count, for conflict resolution
 
-    # ── Conversation-level filter: group chats ───────────────────────────────
-    participants = data.get('participants', [])
-    if len(participants) > 2:
-        skipped.append(f'SKIP (group chat, {len(participants)} participants): {filename}')
+for conv_dir in sorted(conv_dirs):
+    conv_name  = os.path.basename(conv_dir)
+    short_name = re.sub(r'_\d+$', '', conv_name)  # strip trailing numeric ID
+    json_files = sorted(glob.glob(os.path.join(conv_dir, 'message_*.json')))
+
+    if not json_files:
         continue
 
-    # ── Message-level cleaning ───────────────────────────────────────────────
-    raw_messages = data.get('messages', [])
-    cleaned = [c for msg in raw_messages if (c := clean_message(msg))]
+    # ── Merge all message_N.json parts into one message list ─────────────────
+    all_raw_messages = []
+    participants = []
+    for filepath in json_files:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        if not participants:
+            participants = data.get('participants', [])
+        all_raw_messages.extend(data.get('messages', []))
 
-    # ── Conversation-level filter: empty or monologue ────────────────────────
+    # ── Conversation-level filter: group chats ────────────────────────────────────────────
+    if len(participants) > 2:
+        skipped.append(f'SKIP (group chat, {len(participants)} participants): {short_name}')
+        continue
+
+    # ── Message-level cleaning ────────────────────────────────────────────────
+    cleaned = [c for msg in all_raw_messages if (c := clean_message(msg))]
+
+    # ── Conversation-level filter: empty or monologue ────────────────────────────────────
     if not cleaned:
-        skipped.append(f'SKIP (empty after cleaning): {filename}')
+        skipped.append(f'SKIP (empty after cleaning): {short_name}')
         continue
 
     unique_senders = {msg['sender'] for msg in cleaned}
     if len(unique_senders) <= 1:
-        skipped.append(f'SKIP (monologue): {filename}')
+        skipped.append(f'SKIP (monologue): {short_name}')
         continue
 
-    # ── Save valid 1-on-1 conversation ───────────────────────────────────────
-    out_path = os.path.join(out_dir, filename)
+    # ── Resolve filename conflicts ────────────────────────────────────────────────────────────────
+    if short_name in used_names:
+        used_names[short_name] += 1
+        out_filename = f'{short_name}_{used_names[short_name]}.json'
+    else:
+        used_names[short_name] = 1
+        out_filename = f'{short_name}.json'
+
+    # ── Save merged conversation using short username name ──────────────────────────
+    out_path = os.path.join(out_dir, out_filename)
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(cleaned, f, ensure_ascii=False, indent=2)
 
-    print(f'OK  {filename}: {len(cleaned)} messages ({len(unique_senders)} senders)')
+    parts = len(json_files)
+    print(f'OK  {out_filename}: {len(cleaned)} messages ({len(unique_senders)} senders)'
+          + (f'  [{parts} parts merged]' if parts > 1 else ''))
 
 print()
 for s in skipped:

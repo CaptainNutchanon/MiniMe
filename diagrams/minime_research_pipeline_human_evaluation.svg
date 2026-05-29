@@ -1,0 +1,89 @@
+<svg width="100%" viewBox="0 0 680 830" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Research pipeline diagram</title>
+<desc>Flowchart showing the research pipeline from Instagram direct messages to a web application with a trained LoRA adapter.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+
+<g>
+<rect x="215" y="30" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(230, 241, 251);stroke:rgb(24, 95, 165);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="52" text-anchor="middle" dominant-baseline="central" style="fill:rgb(12, 68, 124);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Data collection</text>
+<text x="340" y="70" text-anchor="middle" dominant-baseline="central" style="fill:rgb(24, 95, 165);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Messenger / Instagram chat corpus</text>
+</g>
+<line x1="340" y1="86" x2="340" y2="120" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="120" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="142" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Data preprocessing</text>
+<text x="340" y="160" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Clean, filter, fix encoding</text>
+</g>
+<line x1="340" y1="176" x2="340" y2="210" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="210" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="232" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Emotion tagging</text>
+<text x="340" y="250" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Emoji → emotion label</text>
+</g>
+<line x1="340" y1="266" x2="340" y2="300" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="300" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="322" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Dataset split</text>
+<text x="340" y="340" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Train 95% / Validation 5%</text>
+</g>
+<line x1="340" y1="356" x2="340" y2="390" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="390" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(238, 237, 254);stroke:rgb(83, 74, 183);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="412" text-anchor="middle" dominant-baseline="central" style="fill:rgb(60, 52, 137);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Fine-tuning</text>
+<text x="340" y="430" text-anchor="middle" dominant-baseline="central" style="fill:rgb(83, 74, 183);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Typhoon2 + LoRA + Unsloth</text>
+</g>
+<line x1="340" y1="446" x2="340" y2="480" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="480" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="502" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">LoRA adapter output</text>
+<text x="340" y="520" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Trained adapter weights</text>
+</g>
+<line x1="340" y1="536" x2="340" y2="570" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="570" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(230, 241, 251);stroke:rgb(24, 95, 165);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="592" text-anchor="middle" dominant-baseline="central" style="fill:rgb(12, 68, 124);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Inference backend</text>
+<text x="340" y="610" text-anchor="middle" dominant-baseline="central" style="fill:rgb(24, 95, 165);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Base model + LoRA adapter</text>
+</g>
+<line x1="340" y1="626" x2="340" y2="660" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="660" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(250, 236, 231);stroke:rgb(153, 60, 29);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="682" text-anchor="middle" dominant-baseline="central" style="fill:rgb(113, 43, 19);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Web application</text>
+<text x="340" y="700" text-anchor="middle" dominant-baseline="central" style="fill:rgb(153, 60, 29);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Captain AI chatbot interface</text>
+</g>
+<line x1="340" y1="716" x2="340" y2="750" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+
+<g>
+<rect x="215" y="750" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(250, 238, 218);stroke:rgb(133, 79, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+<text x="340" y="772" text-anchor="middle" dominant-baseline="central" style="fill:rgb(99, 56, 6);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Evaluation</text>
+<text x="340" y="790" text-anchor="middle" dominant-baseline="central" style="fill:rgb(133, 79, 11);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">human evaluation</text>
+</g>
+
+<text x="90" y="210" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Pre-</text>
+<text x="90" y="224" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">processing</text>
+<text x="90" y="238" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">pipeline</text>
+<line x1="128" y1="228" x2="213" y2="228" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:0.5px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter"/>
+
+<text x="568" y="412" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">LoRA adapter</text>
+<text x="568" y="426" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">~134 MB</text>
+<line x1="550" y1="418" x2="467" y2="418" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:0.5px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter"/>
+</svg>
