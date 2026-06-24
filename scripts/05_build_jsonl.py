@@ -1,22 +1,24 @@
-import os
-import json
 import glob
+import json
+import os
+import sys
+from pathlib import Path
 
-# ── Step 5: Build JSONL training file ─────────────────────────────────────────
-# Reads filtered conversations from data/filtered/
-# Splits into sessions by time gap, formats as OpenAI-style chat turns
-# Outputs to data/output/training_data.jsonl
+from config import ASSISTANT_NAME, FILTERED_DIR, OUTPUT_DIR, SESSION_GAP_MS
 
-ASSISTANT_NAME = "กัปปิตัน"
-SESSION_GAP_MS = 3_600_000  # 1 hour gap = new session
+ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+from minime_core.runtime_env import configure_utf8
+
+configure_utf8()
 
 def get_role(sender):
     return "assistant" if sender == ASSISTANT_NAME else "user"
 
+
 def split_into_sessions(messages):
-    """Split a sorted message list into sessions based on time gaps."""
     sessions, current = [], []
     for msg in messages:
         if current and (msg["timestamp"] - current[-1]["timestamp"]) > SESSION_GAP_MS:
@@ -27,11 +29,8 @@ def split_into_sessions(messages):
         sessions.append(current)
     return sessions
 
+
 def format_session(messages):
-    """
-    Merge consecutive same-role messages, then build the chat turn list.
-    Returns None if the session lacks both a user and an assistant turn.
-    """
     turns = []
     for msg in messages:
         role = get_role(msg["sender"])
@@ -40,43 +39,48 @@ def format_session(messages):
         else:
             turns.append({"role": role, "content": msg["content"]})
 
-    # Trim leading assistant turns
     while turns and turns[0]["role"] == "assistant":
         turns.pop(0)
 
-    # Validate: must have at least one of each role
-    roles = {t["role"] for t in turns}
+    roles = {turn["role"] for turn in turns}
     if "user" not in roles or "assistant" not in roles:
         return None
-
     return turns
 
-# ── Main ──────────────────────────────────────────────────────────────────────
 
-base        = os.path.dirname(os.path.abspath(__file__))
-input_dir   = os.path.normpath(os.path.join(base, '..', 'data', 'filtered'))
-output_dir  = os.path.normpath(os.path.join(base, '..', 'data', 'output'))
-output_path = os.path.join(output_dir, 'base_data.jsonl')
-os.makedirs(output_dir, exist_ok=True)
+def main():
+    input_dir = os.path.normpath(FILTERED_DIR)
+    output_dir = os.path.normpath(OUTPUT_DIR)
+    output_path = os.path.join(output_dir, "base_data.jsonl")
+    os.makedirs(output_dir, exist_ok=True)
 
-total_sessions = 0
+    total_sessions = 0
+    with open(output_path, "w", encoding="utf-8") as out_f:
+        for filepath in sorted(glob.glob(os.path.join(input_dir, "*.json"))):
+            source = os.path.basename(filepath)
+            with open(filepath, "r", encoding="utf-8") as f:
+                messages = json.load(f)
 
-with open(output_path, "w", encoding="utf-8") as out_f:
-    for filepath in glob.glob(os.path.join(input_dir, "*.json")):
-        with open(filepath, "r", encoding="utf-8") as f:
-            messages = json.load(f)
-
-        if not isinstance(messages, list) or not messages:
-            continue
-
-        messages.sort(key=lambda m: m["timestamp"])
-
-        for session_msgs in split_into_sessions(messages):
-            chat = format_session(session_msgs)
-            if chat is None:
+            if not isinstance(messages, list) or not messages:
                 continue
 
-            out_f.write(json.dumps({"messages": chat}, ensure_ascii=False) + "\n")
-            total_sessions += 1
+            messages.sort(key=lambda message: message["timestamp"])
+            for session_index, session_msgs in enumerate(split_into_sessions(messages)):
+                chat = format_session(session_msgs)
+                if chat is None:
+                    continue
+                row = {
+                    "source": source,
+                    "session_index": session_index,
+                    "session_start_ms": session_msgs[0]["timestamp"],
+                    "session_end_ms": session_msgs[-1]["timestamp"],
+                    "messages": chat,
+                }
+                out_f.write(json.dumps(row, ensure_ascii=False) + "\n")
+                total_sessions += 1
 
-print(f"Done — {total_sessions:,} sessions written to {output_path}")
+    print(f"Done - {total_sessions:,} sessions written to {output_path}")
+
+
+if __name__ == "__main__":
+    main()

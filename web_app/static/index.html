@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MiniMe Chat</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand-mark">M</div>
+          <div>
+            <div class="brand-name">MiniMe</div>
+            <div class="brand-subtitle">Goldfish chat system</div>
+          </div>
+        </div>
+
+        <button class="new-chat-button" id="newChatButton" type="button">
+          <span>+</span>
+          New Chat
+        </button>
+
+        <div class="sidebar-section">
+          <div class="section-label">Chat History</div>
+          <div class="chat-list" id="chatList"></div>
+        </div>
+      </aside>
+
+      <main class="chat-panel">
+        <header class="topbar">
+          <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar">☰</button>
+          <div>
+            <h1 id="roomTitle">New Chat</h1>
+            <p id="modelStatus">Checking model...</p>
+          </div>
+          <div class="status-pill" id="statusPill">Loading</div>
+        </header>
+
+        <section class="messages" id="messages"></section>
+
+        <form class="composer" id="composer">
+          <textarea
+            id="messageInput"
+            rows="1"
+            placeholder="พิมพ์ข้อความ..."
+            autocomplete="off"
+          ></textarea>
+          <button id="sendButton" type="submit">Send</button>
+        </form>
+      </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

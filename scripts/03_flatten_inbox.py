@@ -1,25 +1,65 @@
+import argparse
 import os
 import shutil
 
-# ── Step 3: Flatten raw inbox ─────────────────────────────────────────────────
-# Moves all JSON files from sub-folders up to data/raw/ root, then deletes the sub-folders
+from config import RAW_DATA_DIR
 
-raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw_data'))
 
-for name in os.listdir(raw_dir):
-    folder = os.path.join(raw_dir, name)
-    if not os.path.isdir(folder):
-        continue
+def main():
+    """
+    Optional legacy step.
 
-    for file in os.listdir(folder):
-        if file.endswith('.json'):
-            src = os.path.join(folder, file)
-            dst = os.path.join(raw_dir, file)
-            shutil.move(src, dst)
-            print(f'Moved: {src} -> {dst}')
+    Moves JSON files from each conversation folder up to data/raw_data and
+    deletes the now-empty conversation folders. Step 04 supports this flat
+    layout as well as the original folder layout.
+    """
+    parser = argparse.ArgumentParser(description="Flatten raw Instagram conversation folders.")
+    parser.add_argument("--apply", action="store_true", help="Actually move files and delete folders. Without this, only preview changes.")
+    args = parser.parse_args()
 
-    try:
-        shutil.rmtree(folder)
-        print(f'Deleted: {folder}')
-    except Exception as e:
-        print(f'Error deleting {folder}: {e}')
+    raw_dir = os.path.normpath(RAW_DATA_DIR)
+    if not os.path.isdir(raw_dir):
+        raise SystemExit(f"Raw data directory not found: {raw_dir}")
+
+    moved = 0
+    deleted = 0
+    for name in os.listdir(raw_dir):
+        folder = os.path.join(raw_dir, name)
+        if not os.path.isdir(folder):
+            continue
+
+        for filename in os.listdir(folder):
+            if not filename.endswith(".json"):
+                continue
+            src = os.path.join(folder, filename)
+            dst = os.path.join(raw_dir, filename)
+            if os.path.exists(dst):
+                base, ext = os.path.splitext(filename)
+                counter = 2
+                while os.path.exists(dst):
+                    dst = os.path.join(raw_dir, f"{base}_{counter}{ext}")
+                    counter += 1
+            if args.apply:
+                shutil.move(src, dst)
+            moved += 1
+            action = "Moved" if args.apply else "Would move"
+            print(f"{action}: {src} -> {dst}")
+
+        try:
+            if args.apply:
+                shutil.rmtree(folder)
+            deleted += 1
+            action = "Deleted" if args.apply else "Would delete"
+            print(f"{action}: {folder}")
+        except Exception as exc:
+            print(f"Error deleting {folder}: {exc}")
+
+    mode = "moved" if args.apply else "would move"
+    delete_mode = "deleted" if args.apply else "would delete"
+    print(f"Done - {mode} {moved:,} files and {delete_mode} {deleted:,} folders")
+    if not args.apply:
+        print("Run again with --apply to make these changes.")
+
+
+if __name__ == "__main__":
+    main()

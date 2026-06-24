@@ -1,12 +1,17 @@
 import os
 import shutil
 
-# ── Step 1: Delete media folders from raw Facebook export ─────────────────────
-# Run this first after dropping your Messenger export into data/raw/
+from config import RAW_DATA_DIR
+
+# ── Step 1: Delete media folders from raw Instagram chat export ──────────────
+# Run this first after dropping your Instagram export into data/raw/
 
 TARGET_NAMES = {'audio', 'photos', 'videos'}
 
-raw_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'raw_data'))
+raw_dir = os.path.normpath(RAW_DATA_DIR)
+
+if not os.path.isdir(raw_dir):
+    raise SystemExit(f"Raw data directory not found: {raw_dir}")
 
 for dirpath, dirnames, _ in os.walk(raw_dir, topdown=True):
     for name in list(dirnames):

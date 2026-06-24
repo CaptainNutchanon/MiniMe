@@ -1,89 +1,248 @@
-<svg width="100%" viewBox="0 0 680 830" role="img" xmlns="http://www.w3.org/2000/svg">
-<title>Research pipeline diagram</title>
-<desc>Flowchart showing the research pipeline from Instagram direct messages to a web application with a trained LoRA adapter.</desc>
-<defs>
-<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</marker>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="diagram-title diagram-desc">
+  <title id="diagram-title">MiniMe research pipeline and human evaluation architecture</title>
+  <desc id="diagram-desc">Four-phase research architecture from Instagram chat export preparation through Qwen 3.5 LoRA fine-tuning, local inference safety, and automatic plus human evaluation.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#123232" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow-solid" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 1 L 8 5 L 1 9 Z" fill="#6f7f7b"/>
+    </marker>
+    <marker id="arrow-dotted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 1 L 8 5 L 1 9 Z" fill="#f46a21"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="900" fill="#f4efe4"/>
+  <rect width="1400" height="80" fill="#123232"/>
+  <rect y="76" width="1400" height="4" fill="#f46a21"/>
+  <text class="" x="34" y="34" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="800"><tspan x="34" dy="0">MiniMe Research Pipeline</tspan></text>
+  <text class="" x="34" y="60" text-anchor="start" fill="#dce8e4" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400"><tspan x="34" dy="0">Dataset preparation, LoRA fine-tuning, guarded local inference, and research evaluation</tspan></text>
+  <text x="1365" y="48" text-anchor="end" fill="#f46a21" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="800">Qwen3.5-9B + LoRA</text>
 
 
-<g>
-<rect x="215" y="30" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(230, 241, 251);stroke:rgb(24, 95, 165);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="52" text-anchor="middle" dominant-baseline="central" style="fill:rgb(12, 68, 124);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Data collection</text>
-<text x="340" y="70" text-anchor="middle" dominant-baseline="central" style="fill:rgb(24, 95, 165);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Messenger / Instagram chat corpus</text>
-</g>
-<line x1="340" y1="86" x2="340" y2="120" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+    <g id="phase-a">
+      <rect x="24" y="104" width="326" height="752" rx="8" fill="#fffdf8" stroke="#d8d2c5" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="24" y="104" width="326" height="66" rx="8" fill="#2f7569"/>
+      <rect x="24" y="154" width="326" height="16" fill="#2f7569"/>
+      <circle cx="53" cy="137" r="16" fill="#fffdf8" fill-opacity="0.96"/>
+      <text x="53" y="143" text-anchor="middle" fill="#2f7569" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="800">A</text>
+      <text class="" x="82" y="131" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700"><tspan x="82" dy="0">Dataset Preparation</tspan></text>
+      <text class="" x="82" y="151" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="400"><tspan x="82" dy="0">Raw chat to chronological splits</tspan></text>
+    </g>
+
+    <g id="phase-b">
+      <rect x="366" y="104" width="326" height="752" rx="8" fill="#fffdf8" stroke="#d8d2c5" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="366" y="104" width="326" height="66" rx="8" fill="#326d8a"/>
+      <rect x="366" y="154" width="326" height="16" fill="#326d8a"/>
+      <circle cx="395" cy="137" r="16" fill="#fffdf8" fill-opacity="0.96"/>
+      <text x="395" y="143" text-anchor="middle" fill="#326d8a" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="800">B</text>
+      <text class="" x="424" y="131" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700"><tspan x="424" dy="0">LoRA Fine-Tuning</tspan></text>
+      <text class="" x="424" y="151" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="400"><tspan x="424" dy="0">Parameter-efficient persona learning</tspan></text>
+    </g>
+
+    <g id="phase-c">
+      <rect x="708" y="104" width="326" height="752" rx="8" fill="#fffdf8" stroke="#d8d2c5" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="708" y="104" width="326" height="66" rx="8" fill="#54777c"/>
+      <rect x="708" y="154" width="326" height="16" fill="#54777c"/>
+      <circle cx="737" cy="137" r="16" fill="#fffdf8" fill-opacity="0.96"/>
+      <text x="737" y="143" text-anchor="middle" fill="#54777c" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="800">C</text>
+      <text class="" x="766" y="131" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700"><tspan x="766" dy="0">Runtime &amp; Safety</tspan></text>
+      <text class="" x="766" y="151" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="400"><tspan x="766" dy="0">Local inference with a light guard</tspan></text>
+    </g>
+
+    <g id="phase-d">
+      <rect x="1050" y="104" width="326" height="752" rx="8" fill="#fffdf8" stroke="#d8d2c5" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="1050" y="104" width="326" height="66" rx="8" fill="#b95b28"/>
+      <rect x="1050" y="154" width="326" height="16" fill="#b95b28"/>
+      <circle cx="1079" cy="137" r="16" fill="#fffdf8" fill-opacity="0.96"/>
+      <text x="1079" y="143" text-anchor="middle" fill="#b95b28" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="800">D</text>
+      <text class="" x="1108" y="131" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700"><tspan x="1108" dy="0">Research Evaluation</tspan></text>
+      <text class="" x="1108" y="151" text-anchor="start" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="400"><tspan x="1108" dy="0">Automatic, blind A/B, and live chat</tspan></text>
+    </g>
+
+  <g id="dataset-preparation-nodes">
+
+    <g id="node-a1">
+      <rect x="40" y="190" width="294" height="126" rx="8" fill="#e7f2ed" stroke="#2f7569" stroke-width="1.2"/>
+      <rect x="50" y="200" width="34" height="20" rx="4" fill="#2f7569"/>
+      <text x="67" y="214" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">A1</text>
+      <text class="" x="187" y="217" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="187" dy="0">Raw Data Ingestion</tspan></text>
+      <line x1="56" y1="228" x2="318" y2="228" stroke="#2f7569" stroke-opacity="0.24"/>
+      <text class="" x="187" y="242" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="187" dy="0">Instagram chat JSON export</tspan><tspan x="187" dy="15">Thai mojibake recovery:</tspan><tspan x="187" dy="15">latin1 -&gt; UTF-8 re-decoding</tspan></text>
+    </g>
+    <path d="M 187 316 L 187 340" fill="none" stroke="#2f7569" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-a2">
+      <rect x="40" y="344" width="294" height="126" rx="8" fill="#e7f2ed" stroke="#2f7569" stroke-width="1.2"/>
+      <rect x="50" y="354" width="34" height="20" rx="4" fill="#2f7569"/>
+      <text x="67" y="368" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">A2</text>
+      <text class="" x="187" y="371" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="187" dy="0">Text Preprocessing</tspan><tspan x="187" dy="16">&amp; Cleaning</tspan></text>
+      <line x1="56" y1="398" x2="318" y2="398" stroke="#2f7569" stroke-opacity="0.24"/>
+      <text class="" x="187" y="412" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="187" dy="0">scripts/04_clean_and_filter.py</tspan><tspan x="187" dy="15">Remove calls, links, reactions,</tspan><tspan x="187" dy="15">shared posts, and system notices</tspan></text>
+    </g>
+    <path d="M 187 470 L 187 494" fill="none" stroke="#2f7569" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-a3">
+      <rect x="40" y="498" width="294" height="126" rx="8" fill="#e7f2ed" stroke="#2f7569" stroke-width="1.2"/>
+      <rect x="50" y="508" width="34" height="20" rx="4" fill="#2f7569"/>
+      <text x="67" y="522" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">A3</text>
+      <text class="" x="187" y="525" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="187" dy="0">Session Construction</tspan><tspan x="187" dy="16">&amp; Message Merging</tspan></text>
+      <line x1="56" y1="552" x2="318" y2="552" stroke="#2f7569" stroke-opacity="0.24"/>
+      <text class="" x="187" y="566" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="187" dy="0">scripts/05_build_jsonl.py</tspan><tspan x="187" dy="15">Merge consecutive same-sender turns</tspan><tspan x="187" dy="15">1-hour idle gap; start with User</tspan></text>
+    </g>
+    <path d="M 187 624 L 187 648" fill="none" stroke="#2f7569" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-a4">
+      <rect x="40" y="652" width="294" height="170" rx="8" fill="#e7f2ed" stroke="#2f7569" stroke-width="1.2"/>
+      <rect x="50" y="662" width="34" height="20" rx="4" fill="#2f7569"/>
+      <text x="67" y="676" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">A4</text>
+      <text class="" x="187" y="679" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="187" dy="0">Chronological Data Split</tspan></text>
+      <line x1="56" y1="690" x2="318" y2="690" stroke="#2f7569" stroke-opacity="0.24"/>
+      <text class="" x="187" y="704" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="187" dy="0">scripts/06_split_train_val.py</tspan><tspan x="187" dy="15">Source-preserved chronological split</tspan><tspan x="187" dy="15">90% Train / 10% Validation</tspan><tspan x="187" dy="15">Sources with &lt;10 sessions: train only</tspan><tspan x="187" dy="15">Future-like validation; reduced leakage</tspan></text>
+    </g>
+  </g>
+
+  <g id="lora-fine-tuning-nodes">
+
+    <g id="node-b1">
+      <rect x="382" y="190" width="294" height="126" rx="8" fill="#e7f1f7" stroke="#326d8a" stroke-width="1.2"/>
+      <rect x="392" y="200" width="34" height="20" rx="4" fill="#326d8a"/>
+      <text x="409" y="214" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">B1</text>
+      <text class="" x="529" y="217" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="529" dy="0">Base Model Loading</tspan></text>
+      <line x1="398" y1="228" x2="660" y2="228" stroke="#326d8a" stroke-opacity="0.24"/>
+      <text class="" x="529" y="242" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="529" dy="0">Qwen/Qwen3.5-9B via Unsloth</tspan><tspan x="529" dy="15">4-bit quantization</tspan><tspan x="529" dy="15">Reduced VRAM footprint</tspan></text>
+    </g>
+    <path d="M 529 316 L 529 340" fill="none" stroke="#326d8a" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-b2">
+      <rect x="382" y="344" width="294" height="126" rx="8" fill="#e7f1f7" stroke="#326d8a" stroke-width="1.2"/>
+      <rect x="392" y="354" width="34" height="20" rx="4" fill="#326d8a"/>
+      <text x="409" y="368" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">B2</text>
+      <text class="" x="529" y="371" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="529" dy="0">Parameter-Efficient</tspan><tspan x="529" dy="16">Fine-Tuning</tspan></text>
+      <line x1="398" y1="398" x2="660" y2="398" stroke="#326d8a" stroke-opacity="0.24"/>
+      <text class="" x="529" y="412" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="529" dy="0">LoRA: rank 16, alpha 32, dropout 0.05</tspan><tspan x="529" dy="15">Q/K/V/O + gate/up/down projections</tspan><tspan x="529" dy="15">Gradient checkpointing</tspan></text>
+    </g>
+    <path d="M 529 470 L 529 494" fill="none" stroke="#326d8a" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-b3">
+      <rect x="382" y="498" width="294" height="126" rx="8" fill="#e7f1f7" stroke="#326d8a" stroke-width="1.2"/>
+      <rect x="392" y="508" width="34" height="20" rx="4" fill="#326d8a"/>
+      <text x="409" y="522" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">B3</text>
+      <text class="" x="529" y="525" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="529" dy="0">Hybrid Training Data</tspan></text>
+      <line x1="398" y1="536" x2="660" y2="536" stroke="#326d8a" stroke-opacity="0.24"/>
+      <text class="" x="529" y="550" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="529" dy="0">Real Instagram chat train split</tspan><tspan x="529" dy="15">+ curated general-chat examples</tspan><tspan x="529" dy="15">CURATED_REPEAT = 2</tspan></text>
+    </g>
+    <path d="M 529 624 L 529 648" fill="none" stroke="#326d8a" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-b4">
+      <rect x="382" y="652" width="294" height="170" rx="8" fill="#e7f1f7" stroke="#326d8a" stroke-width="1.2"/>
+      <rect x="392" y="662" width="34" height="20" rx="4" fill="#326d8a"/>
+      <text x="409" y="676" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">B4</text>
+      <text class="" x="529" y="679" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="529" dy="0">Optimization Strategy</tspan></text>
+      <line x1="398" y1="690" x2="660" y2="690" stroke="#326d8a" stroke-opacity="0.24"/>
+      <text class="" x="529" y="704" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="529" dy="0">Last assistant-only token loss</tspan><tspan x="529" dy="15">Context remains visible; prior tokens masked</tspan><tspan x="529" dy="15">2 epochs; evaluate/save every 100 steps</tspan><tspan x="529" dy="15">Best checkpoint selected by eval_loss</tspan><tspan x="529" dy="15">Export LoRA adapter weights</tspan></text>
+    </g>
+  </g>
+
+  <g id="runtime-and-safety-nodes">
+
+    <g id="node-c1">
+      <rect x="724" y="190" width="294" height="126" rx="8" fill="#edf4f3" stroke="#54777c" stroke-width="1.2"/>
+      <rect x="734" y="200" width="34" height="20" rx="4" fill="#54777c"/>
+      <text x="751" y="214" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">C1</text>
+      <text class="" x="871" y="217" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="871" dy="0">Local FastAPI Backend</tspan></text>
+      <line x1="740" y1="228" x2="1002" y2="228" stroke="#54777c" stroke-opacity="0.24"/>
+      <text class="" x="871" y="242" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="871" dy="0">Base model + LoRA adapter</tspan><tspan x="871" dy="15">Local GPU inference</tspan><tspan x="871" dy="15">Server-Sent Events (SSE) streaming</tspan></text>
+    </g>
+    <path d="M 871 316 L 871 340" fill="none" stroke="#54777c" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-c2">
+      <rect x="724" y="344" width="294" height="126" rx="8" fill="#edf4f3" stroke="#54777c" stroke-width="1.2"/>
+      <rect x="734" y="354" width="34" height="20" rx="4" fill="#54777c"/>
+      <text x="751" y="368" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">C2</text>
+      <text class="" x="871" y="371" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="871" dy="0">Context Management</tspan></text>
+      <line x1="740" y1="382" x2="1002" y2="382" stroke="#54777c" stroke-opacity="0.24"/>
+      <text class="" x="871" y="396" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="871" dy="0">Current user message + recent history</tspan><tspan x="871" dy="15">MAX_HISTORY_MESSAGES = 6</tspan><tspan x="871" dy="15">System prompt guides short Thai chat</tspan></text>
+    </g>
+    <path d="M 871 470 L 871 494" fill="none" stroke="#54777c" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-c3">
+      <rect x="724" y="498" width="294" height="126" rx="8" fill="#edf4f3" stroke="#54777c" stroke-width="1.2"/>
+      <rect x="734" y="508" width="34" height="20" rx="4" fill="#54777c"/>
+      <text x="751" y="522" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">C3</text>
+      <text class="" x="871" y="525" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="871" dy="0">Post-Processing Light Guard</tspan></text>
+      <line x1="740" y1="536" x2="1002" y2="536" stroke="#54777c" stroke-opacity="0.24"/>
+      <text class="" x="871" y="550" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="871" dy="0">Reject CJK, malformed tokens, long numbers</tspan><tspan x="871" dy="15">Emoji-only or &gt;=3 emoji; max 70 chars</tspan><tspan x="871" dy="15">Block artifacts: ไอแพน / คุณายาว</tspan></text>
+    </g>
+    <path d="M 871 624 L 871 648" fill="none" stroke="#54777c" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+
+    <g id="node-c4">
+      <rect x="724" y="652" width="294" height="170" rx="8" fill="#edf4f3" stroke="#54777c" stroke-width="1.2"/>
+      <rect x="734" y="662" width="34" height="20" rx="4" fill="#54777c"/>
+      <text x="751" y="676" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">C4</text>
+      <text class="" x="871" y="679" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="871" dy="0">Identity Policy</tspan><tspan x="871" dy="16">&amp; Active Retry</tspan></text>
+      <line x1="740" y1="706" x2="1002" y2="706" stroke="#54777c" stroke-opacity="0.24"/>
+      <text class="" x="871" y="720" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="871" dy="0">Garbage output: retry up to 2 times</tspan><tspan x="871" dy="15">Identity drift: add a targeted system hint</tspan><tspan x="871" dy="15">then perform one identity retry</tspan><tspan x="871" dy="15">Normalize known identity variants</tspan><tspan x="871" dy="15">Deterministic identity fallback if needed</tspan></text>
+    </g>
+  </g>
+
+  <g id="research-evaluation-nodes">
+
+    <g id="node-d1">
+      <rect x="1066" y="190" width="294" height="140" rx="8" fill="#faecdf" stroke="#b95b28" stroke-width="1.2"/>
+      <rect x="1076" y="200" width="34" height="20" rx="4" fill="#b95b28"/>
+      <text x="1093" y="214" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">D1</text>
+      <text class="" x="1213" y="217" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="1213" dy="0">Multi-Category Prompt Set</tspan></text>
+      <line x1="1082" y1="228" x2="1344" y2="228" stroke="#b95b28" stroke-opacity="0.24"/>
+      <text class="" x="1213" y="242" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="1213" dy="0">66 held-out prompts</tspan><tspan x="1213" dy="15">8 persona and conversation categories</tspan><tspan x="1213" dy="15">No verbatim overlap with train/validation</tspan><tspan x="1213" dy="15">Baseline vs fine-tuned comparison</tspan></text>
+    </g>
+
+    <path d="M 1213 330 L 1213 356 L 1136 356 L 1136 378" fill="none" stroke="#b95b28" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+    <path d="M 1213 356 L 1284 356 L 1284 378" fill="none" stroke="#b95b28" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
+    <circle cx="1213" cy="356" r="4" fill="#f46a21"/>
 
 
-<g>
-<rect x="215" y="120" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="142" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Data preprocessing</text>
-<text x="340" y="160" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Clean, filter, fix encoding</text>
-</g>
-<line x1="340" y1="176" x2="340" y2="210" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+    <g id="node-d3">
+      <rect x="1066" y="382" width="140" height="438" rx="8" fill="#fff3e9" stroke="#b95b28" stroke-width="1.2"/>
+      <rect x="1076" y="392" width="28" height="20" rx="4" fill="#b95b28"/>
+      <text x="1090" y="406" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">D3</text>
+      <text class="" x="1136" y="424" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="750"><tspan x="1136" dy="0">Human-Centric</tspan><tspan x="1136" dy="13">Evaluation</tspan></text>
+      <line x1="1082" y1="450" x2="1190" y2="450" stroke="#b95b28" stroke-opacity="0.24"/>
+      <text class="" x="1136" y="464" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="9.7" font-weight="450"><tspan x="1136" dy="0">BLIND HUMAN A/B</tspan><tspan x="1136" dy="14">8 raters</tspan><tspan x="1136" dy="14">Persona similarity</tspan><tspan x="1136" dy="14">Style similarity</tspan><tspan x="1136" dy="14">Context relevance</tspan><tspan x="1136" dy="14"></tspan><tspan x="1136" dy="14">Exact Wilcoxon</tspan><tspan x="1136" dy="14">signed-rank test</tspan><tspan x="1136" dy="14">Krippendorff&apos;s alpha</tspan><tspan x="1136" dy="14">agreement</tspan><tspan x="1136" dy="14"></tspan><tspan x="1136" dy="14">LIVE CHAT</tspan><tspan x="1136" dy="14">22 sessions</tspan><tspan x="1136" dy="14">Acceptable response</tspan><tspan x="1136" dy="14">rate</tspan></text>
+    </g>
 
+    <g id="node-d2">
+      <rect x="1214" y="382" width="146" height="438" rx="8" fill="#eef4f8" stroke="#326d8a" stroke-width="1.2"/>
+      <rect x="1224" y="392" width="28" height="20" rx="4" fill="#326d8a"/>
+      <text x="1238" y="406" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">D2</text>
+      <text class="" x="1287" y="424" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="750"><tspan x="1287" dy="0">Automatic</tspan><tspan x="1287" dy="13">Metrics</tspan></text>
+      <line x1="1230" y1="450" x2="1344" y2="450" stroke="#326d8a" stroke-opacity="0.24"/>
+      <text class="" x="1287" y="464" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="9.7" font-weight="450"><tspan x="1287" dy="0">Distinct-1 / 2</tspan><tspan x="1287" dy="14">character-level</tspan><tspan x="1287" dy="14"></tspan><tspan x="1287" dy="14">Guard rejection rate</tspan><tspan x="1287" dy="14">Average latency</tspan><tspan x="1287" dy="14">Output artifacts</tspan><tspan x="1287" dy="14">Identity accuracy</tspan><tspan x="1287" dy="14">Generic reply rate</tspan><tspan x="1287" dy="14"></tspan><tspan x="1287" dy="14">Reply length ratio</tspan><tspan x="1287" dy="14">vs real Kappitan</tspan><tspan x="1287" dy="14">validation replies</tspan><tspan x="1287" dy="14"></tspan><tspan x="1287" dy="14">Training / eval loss</tspan><tspan x="1287" dy="14">and overfitting gap</tspan></text>
+    </g>
+  </g>
 
-<g>
-<rect x="215" y="210" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="232" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Emotion tagging</text>
-<text x="340" y="250" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Emoji → emotion label</text>
-</g>
-<line x1="340" y1="266" x2="340" y2="300" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+  <g id="cross-phase-data-flow">
 
+    <g class="cross-phase-connector">
+      <path d="M 334 737 L 350 737 L 350 561 L 378 561" fill="none" stroke="#f46a21" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow-dotted)"/>
+      <text x="351" y="649" text-anchor="middle" fill="#f46a21" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="700" transform="rotate(-90 351 649)">TRAIN DATA</text>
+    </g>
 
-<g>
-<rect x="215" y="300" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="322" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Dataset split</text>
-<text x="340" y="340" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Train 95% / Validation 5%</text>
-</g>
-<line x1="340" y1="356" x2="340" y2="390" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
+    <g class="cross-phase-connector">
+      <path d="M 676 737 L 692 737 L 692 253 L 720 253" fill="none" stroke="#f46a21" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow-dotted)"/>
+      <text x="693" y="490" text-anchor="middle" fill="#f46a21" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="700" transform="rotate(-90 693 490)">BEST LoRA</text>
+    </g>
 
+    <g class="cross-phase-connector">
+      <path d="M 1018 737 L 1034 737 L 1034 700 L 1062 700" fill="none" stroke="#f46a21" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow-dotted)"/>
+      <text x="1034" y="714" text-anchor="middle" fill="#f46a21" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="700" transform="rotate(-90 1034 714)">LIVE REPLIES</text>
+    </g>
+  </g>
 
-<g>
-<rect x="215" y="390" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(238, 237, 254);stroke:rgb(83, 74, 183);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="412" text-anchor="middle" dominant-baseline="central" style="fill:rgb(60, 52, 137);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Fine-tuning</text>
-<text x="340" y="430" text-anchor="middle" dominant-baseline="central" style="fill:rgb(83, 74, 183);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Typhoon2 + LoRA + Unsloth</text>
-</g>
-<line x1="340" y1="446" x2="340" y2="480" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-
-
-<g>
-<rect x="215" y="480" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="502" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">LoRA adapter output</text>
-<text x="340" y="520" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Trained adapter weights</text>
-</g>
-<line x1="340" y1="536" x2="340" y2="570" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-
-
-<g>
-<rect x="215" y="570" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(230, 241, 251);stroke:rgb(24, 95, 165);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="592" text-anchor="middle" dominant-baseline="central" style="fill:rgb(12, 68, 124);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Inference backend</text>
-<text x="340" y="610" text-anchor="middle" dominant-baseline="central" style="fill:rgb(24, 95, 165);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Base model + LoRA adapter</text>
-</g>
-<line x1="340" y1="626" x2="340" y2="660" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-
-
-<g>
-<rect x="215" y="660" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(250, 236, 231);stroke:rgb(153, 60, 29);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="682" text-anchor="middle" dominant-baseline="central" style="fill:rgb(113, 43, 19);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Web application</text>
-<text x="340" y="700" text-anchor="middle" dominant-baseline="central" style="fill:rgb(153, 60, 29);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Captain AI chatbot interface</text>
-</g>
-<line x1="340" y1="716" x2="340" y2="750" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-
-
-<g>
-<rect x="215" y="750" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(250, 238, 218);stroke:rgb(133, 79, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"/>
-<text x="340" y="772" text-anchor="middle" dominant-baseline="central" style="fill:rgb(99, 56, 6);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Evaluation</text>
-<text x="340" y="790" text-anchor="middle" dominant-baseline="central" style="fill:rgb(133, 79, 11);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">human evaluation</text>
-</g>
-
-<text x="90" y="210" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Pre-</text>
-<text x="90" y="224" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">processing</text>
-<text x="90" y="238" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">pipeline</text>
-<line x1="128" y1="228" x2="213" y2="228" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:0.5px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter"/>
-
-<text x="568" y="412" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">LoRA adapter</text>
-<text x="568" y="426" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">~134 MB</text>
-<line x1="550" y1="418" x2="467" y2="418" style="fill:none;stroke:rgb(115, 114, 108);stroke-width:0.5px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter"/>
+  <g id="research-summary-footer">
+    <line x1="24" y1="876" x2="1376" y2="876" stroke="#d4ccbc"/>
+    <text x="700" y="892" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600">66 held-out prompts  |  8 human raters  |  22 live-chat sessions  |  exact Wilcoxon testing  |  agreement analysis</text>
+  </g>
 </svg>

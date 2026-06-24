@@ -1,15 +1,66 @@
-# Virtual Environment
+# Python environments
 captain-env/
+.venv/
+venv/
 
-# Data folder (contains raw/personal data, not tracked in git)
+# Node.js dependencies used by diagram renderers
+node_modules/
+.pnpm-store/
+
+# Private datasets and derived conversations
 data/
 
-# Python cache files
+# Model adapters, checkpoints, and tensor weights
+output/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Private/raw research artifacts
+# Keep aggregate Markdown reports, PNG charts, and the public loss workbook.
+reports/training/
+reports/result/
+reports/**/*.json
+reports/**/*.jsonl
+reports/**/*.csv
+reports/**/human_eval_mapping_private.txt
+reports/**/*_input_audit.md
+*.bak
+*.inspect.ndjson
+
+# Superseded evaluation drafts
+evaluation/*draft*
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python and test caches
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 
-# Unsloth compiled cache
+# Unsloth/Hugging Face local caches
 unsloth_compiled_cache/
+.cache/
+.huggingface/
 
-# Training output (LoRA weights — large files, do not commit)
-output/
+# Local helper tools, state, and temporary files
+.tools/
+.tmp/
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
