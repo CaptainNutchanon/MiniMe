@@ -252,7 +252,7 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
     ${nodeBox({
       id: "D1", x: 1066, y: 190, width: 294, height: 140,
       title: ["Multi-Category Prompt Set"],
-      body: ["66 held-out prompts", "8 persona and conversation categories", "No verbatim overlap with train/validation", "Baseline vs fine-tuned comparison"],
+      body: ["66 held-out prompts", "8 persona and conversation categories", "No audited verbatim overlap", "normalized text >=10 characters", "Baseline vs fine-tuned comparison"],
       fill: palette.phaseDFill, stroke: palette.phaseD,
     })}
 

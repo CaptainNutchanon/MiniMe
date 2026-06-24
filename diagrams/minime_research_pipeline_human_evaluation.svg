@@ -196,7 +196,7 @@
       <text x="1093" y="214" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800">D1</text>
       <text class="" x="1213" y="217" text-anchor="middle" fill="#193636" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="13.2" font-weight="750"><tspan x="1213" dy="0">Multi-Category Prompt Set</tspan></text>
       <line x1="1082" y1="228" x2="1344" y2="228" stroke="#b95b28" stroke-opacity="0.24"/>
-      <text class="" x="1213" y="242" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="1213" dy="0">66 held-out prompts</tspan><tspan x="1213" dy="15">8 persona and conversation categories</tspan><tspan x="1213" dy="15">No verbatim overlap with train/validation</tspan><tspan x="1213" dy="15">Baseline vs fine-tuned comparison</tspan></text>
+      <text class="" x="1213" y="242" text-anchor="middle" fill="#60706d" font-family="'Noto Sans Thai', 'Leelawadee UI', 'Segoe UI', Arial, sans-serif" font-size="10.7" font-weight="450"><tspan x="1213" dy="0">66 held-out prompts</tspan><tspan x="1213" dy="15">8 persona and conversation categories</tspan><tspan x="1213" dy="15">No audited verbatim overlap</tspan><tspan x="1213" dy="15">normalized text &gt;=10 characters</tspan><tspan x="1213" dy="15">Baseline vs fine-tuned comparison</tspan></text>
     </g>
 
     <path d="M 1213 330 L 1213 356 L 1136 356 L 1136 378" fill="none" stroke="#b95b28" stroke-width="1.7" marker-end="url(#arrow-solid)"/>
